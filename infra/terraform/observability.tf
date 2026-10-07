@@ -51,13 +51,13 @@ resource "aws_cloudwatch_dashboard" "main" {
   dashboard_body = jsonencode({
     widgets = [
       { type = "metric", x = 0, y = 0, width = 12, height = 6, properties = { title = "Ask latency (ms)", region = var.region, stat = "p90", period = 300,
-        metrics = [["AIAnalyst", "AskLatencyMs", "Status", "ok"], ["AIAnalyst", "AskLatencyMs", "Status", "failed"]] } },
+      metrics = [["AIAnalyst", "AskLatencyMs", "Status", "ok"], ["AIAnalyst", "AskLatencyMs", "Status", "failed"]] } },
       { type = "metric", x = 12, y = 0, width = 12, height = 6, properties = { title = "LLM cost (USD) and tokens", region = var.region, stat = "Sum", period = 3600,
-        metrics = [["AIAnalyst", "LLMCostUSD"], ["AIAnalyst", "LLMTokens", { yAxis = "right" }]] } },
+      metrics = [["AIAnalyst", "LLMCostUSD"], ["AIAnalyst", "LLMTokens", { yAxis = "right" }]] } },
       { type = "metric", x = 0, y = 6, width = 12, height = 6, properties = { title = "ALB requests / 5xx", region = var.region, stat = "Sum", period = 300,
-        metrics = [["AWS/ApplicationELB", "RequestCount", "LoadBalancer", aws_lb.main.arn_suffix], [".", "HTTPCode_Target_5XX_Count", ".", "."]] } },
+      metrics = [["AWS/ApplicationELB", "RequestCount", "LoadBalancer", aws_lb.main.arn_suffix], [".", "HTTPCode_Target_5XX_Count", ".", "."]] } },
       { type = "metric", x = 12, y = 6, width = 12, height = 6, properties = { title = "Ingestion", region = var.region, stat = "Sum", period = 300,
-        metrics = [["AIAnalyst", "IngestionFailures"], ["AWS/SQS", "ApproximateNumberOfMessagesVisible", "QueueName", aws_sqs_queue.ingest.name]] } },
+      metrics = [["AIAnalyst", "IngestionFailures"], ["AWS/SQS", "ApproximateNumberOfMessagesVisible", "QueueName", aws_sqs_queue.ingest.name]] } },
     ]
   })
 }

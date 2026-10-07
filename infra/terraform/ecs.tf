@@ -79,24 +79,24 @@ resource "aws_iam_role_policy" "task" {
 # ---- Task definitions -----------------------------------------------------------------------------
 locals {
   api_env = {
-    ENV                   = var.environment
-    AUTH_MODE             = "cognito"
-    COGNITO_USER_POOL_ID  = aws_cognito_user_pool.main.id
-    COGNITO_CLIENT_ID     = aws_cognito_user_pool_client.web.id
-    AWS_REGION            = var.region
-    STORAGE               = "s3"
-    S3_BUCKET             = aws_s3_bucket.data.bucket
-    QUERY_ENGINE          = "athena"
-    ATHENA_WORKGROUP      = aws_athena_workgroup.main.name
-    LLM_PROVIDER          = "bedrock"
-    BEDROCK_MODEL_ID      = var.bedrock_model_id
-    EMBEDDINGS_PROVIDER   = "bedrock"
-    ALLOW_PRIVATE_HOSTS   = "false"
-    DB_HOST               = aws_db_instance.main.address
-    DB_NAME               = "analyst"
-    DB_USER               = "analyst"
-    DATA_DIR              = "/tmp/data"
-    CORS_ORIGINS          = ""
+    ENV                  = var.environment
+    AUTH_MODE            = "cognito"
+    COGNITO_USER_POOL_ID = aws_cognito_user_pool.main.id
+    COGNITO_CLIENT_ID    = aws_cognito_user_pool_client.web.id
+    AWS_REGION           = var.region
+    STORAGE              = "s3"
+    S3_BUCKET            = aws_s3_bucket.data.bucket
+    QUERY_ENGINE         = "athena"
+    ATHENA_WORKGROUP     = aws_athena_workgroup.main.name
+    LLM_PROVIDER         = "bedrock"
+    BEDROCK_MODEL_ID     = var.bedrock_model_id
+    EMBEDDINGS_PROVIDER  = "bedrock"
+    ALLOW_PRIVATE_HOSTS  = "false"
+    DB_HOST              = aws_db_instance.main.address
+    DB_NAME              = "analyst"
+    DB_USER              = "analyst"
+    DATA_DIR             = "/tmp/data"
+    CORS_ORIGINS         = ""
   }
   db_secret = [{ name = "DB_PASSWORD", valueFrom = "${aws_db_instance.main.master_user_secret[0].secret_arn}:password::" }]
 }
@@ -110,12 +110,12 @@ resource "aws_ecs_task_definition" "api" {
   execution_role_arn       = aws_iam_role.exec.arn
   task_role_arn            = aws_iam_role.task.arn
   container_definitions = jsonencode([{
-    name         = "api"
-    image        = "${aws_ecr_repository.repos["api"].repository_url}:${var.image_tag}"
-    essential    = true
-    portMappings = [{ containerPort = 8000 }]
-    environment  = [for k, v in local.api_env : { name = k, value = v }]
-    secrets      = local.db_secret
+    name             = "api"
+    image            = "${aws_ecr_repository.repos["api"].repository_url}:${var.image_tag}"
+    essential        = true
+    portMappings     = [{ containerPort = 8000 }]
+    environment      = [for k, v in local.api_env : { name = k, value = v }]
+    secrets          = local.db_secret
     logConfiguration = { logDriver = "awslogs", options = { awslogs-group = aws_cloudwatch_log_group.svc["api"].name, awslogs-region = var.region, awslogs-stream-prefix = "api" } }
   }])
 }
@@ -130,12 +130,12 @@ resource "aws_ecs_task_definition" "worker" {
   execution_role_arn = aws_iam_role.exec.arn
   task_role_arn      = aws_iam_role.task.arn
   container_definitions = jsonencode([{
-    name        = "worker"
-    image       = "${aws_ecr_repository.repos["api"].repository_url}:${var.image_tag}"
-    essential   = true
-    command     = ["python", "-m", "app.ingestion.worker"]
-    environment = concat([for k, v in local.api_env : { name = k, value = v }], [{ name = "QUEUE_URL", value = aws_sqs_queue.ingest.url }])
-    secrets     = local.db_secret
+    name             = "worker"
+    image            = "${aws_ecr_repository.repos["api"].repository_url}:${var.image_tag}"
+    essential        = true
+    command          = ["python", "-m", "app.ingestion.worker"]
+    environment      = concat([for k, v in local.api_env : { name = k, value = v }], [{ name = "QUEUE_URL", value = aws_sqs_queue.ingest.url }])
+    secrets          = local.db_secret
     logConfiguration = { logDriver = "awslogs", options = { awslogs-group = aws_cloudwatch_log_group.svc["worker"].name, awslogs-region = var.region, awslogs-stream-prefix = "worker" } }
   }])
 }
@@ -148,10 +148,10 @@ resource "aws_ecs_task_definition" "web" {
   memory                   = 1024
   execution_role_arn       = aws_iam_role.exec.arn
   container_definitions = jsonencode([{
-    name         = "web"
-    image        = "${aws_ecr_repository.repos["web"].repository_url}:${var.image_tag}"
-    essential    = true
-    portMappings = [{ containerPort = 3000 }]
+    name             = "web"
+    image            = "${aws_ecr_repository.repos["web"].repository_url}:${var.image_tag}"
+    essential        = true
+    portMappings     = [{ containerPort = 3000 }]
     logConfiguration = { logDriver = "awslogs", options = { awslogs-group = aws_cloudwatch_log_group.svc["web"].name, awslogs-region = var.region, awslogs-stream-prefix = "web" } }
   }])
 }
