@@ -22,11 +22,11 @@ resource "aws_security_group" "alb" {
 }
 
 resource "aws_lb" "main" {
-  name               = local.name
-  load_balancer_type = "application"
-  subnets            = module.vpc.public_subnets
-  security_groups    = [aws_security_group.alb.id]
-  idle_timeout       = 120 # analyses can take a while
+  name                       = local.name
+  load_balancer_type         = "application"
+  subnets                    = module.vpc.public_subnets
+  security_groups            = [aws_security_group.alb.id]
+  idle_timeout               = 120 # analyses can take a while
   drop_invalid_header_fields = true
 }
 
