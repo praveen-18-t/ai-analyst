@@ -1,0 +1,1201 @@
+order_id,order_date,customer_id,product,category,region,channel,quantity,unit_price,discount_pct,revenue
+1,2025-08-08,C0038,Nimbus Chair,Home,North,store,3,189,0,567.0
+2,2026-05-16,C0215,Pulse Earbuds,Electronics,North,web,1,79,5,75.05
+3,2025-09-30,C0299,Loop Yoga Mat,Fitness,North,partner,1,35,0,35.0
+4,2025-02-18,C0149,Pulse Earbuds,Electronics,West,web,2,79,0,158.0
+5,2025-12-11,C0053,Brew Kettle,Kitchen,South,store,3,59,0,177.0
+6,2026-02-16,C0255,Brew Kettle,Kitchen,West,store,2,59,0,118.0
+7,2026-05-22,C0125,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+8,2025-11-04,C0038,Pulse Earbuds,Electronics,North,partner,2,79,0,158.0
+9,2026-03-09,C0021,Nimbus Chair,Home,North,partner,2,189,5,359.1
+10,2026-05-01,C0255,Pulse Earbuds,Electronics,West,web,3,79,0,237.0
+11,2026-05-31,C0032,Trail Backpack,Outdoor,East,partner,3,99,0,297.0
+12,2026-02-02,C0178,Trail Backpack,Outdoor,North,store,3,99,5,282.15
+13,2025-12-31,C0067,Trail Backpack,Outdoor,South,store,1,99,0,99.0
+14,2026-04-29,C0282,Aurora Lamp,Home,East,web,2,49,5,93.1
+15,2026-04-26,C0195,Pulse Earbuds,Electronics,South,web,2,79,0,158.0
+16,2025-04-30,C0094,Brew Kettle,Kitchen,East,store,1,59,5,
+17,2025-09-27,C0065,Vertex Monitor,Electronics,North,store,2,329,0,658.0
+18,2026-03-19,C0201,Loop Yoga Mat,Fitness,West,store,5,35,10,157.5
+19,2025-10-28,C0107,Vertex Monitor,Electronics,West,web,1,329,0,329.0
+20,2025-12-26,C0275,Aurora Lamp,Home,North,store,2,49,0,98.0
+21,2025-03-06,C0130,Pulse Earbuds,Electronics,East,partner,2,79,0,158.0
+22,2025-04-11,C0248,Loop Yoga Mat,Fitness,East,web,2,35,5,66.5
+23,2026-03-05,C0083,Forge Knife Set,Kitchen,North,web,2,139,15,236.3
+24,2025-11-21,C0271,Nimbus Chair,Home,East,partner,2,189,0,378.0
+25,2026-02-09,C0183,Pulse Earbuds,Electronics,South,partner,1,79,0,79.0
+26,2025-11-08,C0123,Brew Kettle,Kitchen,West,partner,2,59,0,118.0
+27,2025-05-29,C0015,Trail Backpack,Outdoor,East,store,3,99,0,297.0
+28,2026-02-07,C0179,Titan Dumbbells,Fitness,East,web,2,119,15,202.3
+29,2025-06-14,C0001,Pulse Earbuds,Electronics,West,partner,1,79,5,75.05
+30,2026-01-15,C0103,Loop Yoga Mat,Fitness,West,web,1,35,5,33.25
+31,2026-01-11,C0238,Aurora Lamp,Home,West,partner,3,49,5,139.65
+32,2026-02-22,C0078,Nimbus Chair,Home,West,partner,1,189,0,189.0
+33,2026-04-09,C0080,Titan Dumbbells,Fitness,South,web,3,119,0,357.0
+34,2026-06-12,C0072,Brew Kettle,Kitchen,West,web,2,59,15,100.3
+35,2025-06-05,C0124,Pulse Earbuds,Electronics,East,store,1,79,10,71.1
+36,2026-04-13,C0235,Aurora Lamp,Home,West,partner,3,49,0,147.0
+37,2025-04-30,C0094,Trail Backpack,Outdoor,North,web,5,99,5,470.25
+38,2025-10-24,C0167,Forge Knife Set,Kitchen,West,web,2,139,0,278.0
+39,2025-02-24,C0260,Pulse Earbuds,Electronics,West,partner,1,79,0,79.0
+40,2026-05-09,C0259,Aurora Lamp,Home,South,partner,1,49,10,44.1
+41,2025-11-11,C0268,Loop Yoga Mat,Fitness,East,partner,2,35,0,70.0
+42,2025-05-31,C0201,Trail Backpack,Outdoor,West,store,2,99,0,198.0
+43,2025-06-22,C0063,Aurora Lamp,Home,South,partner,3,49,0,147.0
+44,2025-08-30,C0113,Pulse Earbuds,Electronics,North,store,1,79,5,75.05
+45,2025-05-07,C0221,Brew Kettle,Kitchen,West,store,1,59,0,59.0
+46,2025-08-25,C0174,Aurora Lamp,Home,West,store,1,49,0,49.0
+47,2025-09-09,C0033,Summit Tent,Outdoor,North,web,1,249,10,224.1
+48,2025-03-30,C0139,Pulse Earbuds,Electronics,South,store,1,79,0,79.0
+49,2026-01-30,C0275,Titan Dumbbells,Fitness,West,partner,2,119,0,238.0
+50,2025-07-14,C0038,Loop Yoga Mat,Fitness,East,web,1,35,5,33.25
+51,2026-03-29,C0035,Aurora Lamp,Home,East,web,5,49,0,245.0
+52,2025-08-16,C0067,Summit Tent,Outdoor,North,partner,1,249,10,224.1
+53,2026-05-29,C0093,Titan Dumbbells,Fitness,South,store,1,119,0,119.0
+54,2025-11-22,C0092,Pulse Earbuds,Electronics,East,store,2,79,10,142.2
+55,2026-06-22,C0259,Aurora Lamp,Home,South,partner,1,49,15,41.65
+56,2026-05-27,C0222,Aurora Lamp,Home,West,partner,5,49,15,208.25
+57,2025-09-13,C0118,Trail Backpack,Outdoor,East,web,3,99,0,297.0
+58,2026-02-14,C0028,Brew Kettle,Kitchen,South,web,2,59,0,118.0
+59,2026-03-01,C0044,Pulse Earbuds,Electronics,West,partner,1,79,0,79.0
+60,2025-07-16,C0236,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+61,2025-01-07,C0166,Pulse Earbuds,Electronics,South,web,1,79,10,71.1
+62,2025-07-31,C0196,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+63,2026-01-21,C0047,Pulse Earbuds,Electronics,East,web,5,79,0,395.0
+64,2025-12-19,C0120,Vertex Monitor,Electronics,North,partner,1,329,0,329.0
+65,2026-04-21,C0200,Nimbus Chair,Home,East,partner,3,189,10,510.3
+66,2025-04-29,C0023,Forge Knife Set,Kitchen,West,partner,3,139,0,417.0
+67,2025-11-09,C0292,Loop Yoga Mat,Fitness,North,partner,5,35,10,157.5
+68,2026-05-09,C0118,Brew Kettle,Kitchen,North,web,3,59,15,150.45
+69,2026-01-12,C0286,Titan Dumbbells,Fitness,North,partner,2,119,5,226.1
+70,2025-11-22,C0234,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+71,2026-05-11,C0243,Aurora Lamp,Home,East,web,2,49,0,98.0
+72,2025-06-19,C0236,Forge Knife Set,Kitchen,West,store,1,139,15,118.15
+73,2026-05-16,C0102,Pulse Earbuds,Electronics,North,partner,1,79,10,71.1
+74,2025-06-30,C0291,Forge Knife Set,Kitchen,South,web,1,139,10,125.1
+75,2025-10-31,C0112,Titan Dumbbells,Fitness,West,store,1,119,15,101.15
+76,2025-07-18,C0282,Trail Backpack,Outdoor,South,store,5,99,0,495.0
+77,2026-05-28,C0260,Aurora Lamp,Home,West,store,2,49,0,98.0
+78,2026-05-19,C0047,Titan Dumbbells,Fitness,South,partner,1,119,10,107.1
+79,2026-06-04,C0261,Nimbus Chair,Home,East,web,5,189,15,803.25
+80,2025-06-17,C0013,Loop Yoga Mat,Fitness,South,web,2,35,5,66.5
+81,2026-02-02,C0214,Vertex Monitor,Electronics,East,store,3,329,0,987.0
+82,2026-04-15,C0204,Aurora Lamp,Home,North,web,5,49,0,245.0
+83,2026-05-13,C0202,Pulse Earbuds,Electronics,West,partner,1,79,0,79.0
+84,2026-05-23,C0144,Forge Knife Set,Kitchen,North,web,5,139,0,695.0
+85,2025-07-18,C0224,Titan Dumbbells,Fitness,East,web,1,119,0,119.0
+86,2026-03-21,C0205,Trail Backpack,Outdoor,South,partner,1,99,15,84.15
+87,2026-05-27,C0147,Vertex Monitor,Electronics,West,web,2,329,0,658.0
+88,2025-12-01,C0145,Nimbus Chair,Home,East,store,2,189,0,378.0
+89,2026-06-14,C0155,Pulse Earbuds,Electronics,West,partner,3,79,0,237.0
+90,2025-04-09,C0257,Brew Kettle,Kitchen,West,partner,1,59,0,59.0
+91,2026-05-15,C0072,Titan Dumbbells,Fitness,South,web,2,119,5,226.1
+92,2025-08-17,C0133,Aurora Lamp,Home,South,web,1,49,0,49.0
+93,2025-09-24,C0193,Trail Backpack,Outdoor,East,store,2,99,0,198.0
+94,2025-11-06,C0258,Brew Kettle,Kitchen,South,web,1,59,0,59.0
+95,2025-06-27,C0160,Vertex Monitor,Electronics,North,web,2,329,5,625.1
+96,2026-02-15,C0251,Loop Yoga Mat,Fitness,North,web,2,35,10,63.0
+97,2026-05-24,C0230,Loop Yoga Mat,Fitness,South,web,5,35,5,166.25
+98,2025-04-30,C0235,Titan Dumbbells,Fitness,North,partner,1,119,15,101.15
+99,2025-01-03,C0156,Aurora Lamp,Home,South,partner,2,49,0,98.0
+100,2026-01-12,C0037,Brew Kettle,Kitchen,East,partner,1,59,0,59.0
+101,2025-05-25,C0001,Pulse Earbuds,Electronics,North,partner,5,79,10,355.5
+102,2025-10-18,C0244,Titan Dumbbells,Fitness,South,partner,3,119,0,357.0
+103,2026-06-07,C0012,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+104,2026-01-17,C0218,Aurora Lamp,Home,East,web,1,49,15,41.65
+105,2026-02-09,C0203,Forge Knife Set,Kitchen,South,web,1,139,15,118.15
+106,2026-03-01,C0103,Trail Backpack,Outdoor,East,web,1,99,5,94.05
+107,2025-06-11,C0254,Forge Knife Set,Kitchen,South,web,1,139,0,139.0
+108,2026-05-16,C0202,Aurora Lamp,Home,North,web,2,49,0,98.0
+109,2025-12-23,C0095,Trail Backpack,Outdoor,West,store,3,99,0,297.0
+110,2026-05-05,C0169,Forge Knife Set,Kitchen,South,web,1,139,0,139.0
+111,2025-11-19,C0194,Trail Backpack,Outdoor,East,store,1,99,15,84.15
+112,2025-04-02,C0216,Aurora Lamp,Home,North,partner,1,49,0,49.0
+113,2025-06-03,C0222,Pulse Earbuds,Electronics,North,web,5,79,0,395.0
+114,2025-05-27,C0166,Summit Tent,Outdoor,East,partner,2,249,0,498.0
+115,2025-02-02,C0208,Vertex Monitor,Electronics,North,store,5,329,15,1398.25
+116,2025-02-28,C0033,Loop Yoga Mat,Fitness,East,store,1,35,0,35.0
+117,2026-06-06,C0163,Brew Kettle,Kitchen,East,store,1,59,15,
+118,2026-03-08,C0013,Loop Yoga Mat,Fitness,South,web,3,35,0,105.0
+119,2026-06-06,C0221,Titan Dumbbells,Fitness,West,web,2,119,0,238.0
+120,2025-05-19,C0078,Loop Yoga Mat,Fitness,South,store,3,35,0,105.0
+121,2025-10-18,C0263,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+122,2025-06-26,C0283,Aurora Lamp,Home,East,web,1,49,5,46.55
+123,2026-05-05,C0044,Titan Dumbbells,Fitness,South,web,1,119,10,107.1
+124,2026-06-19,C0069,Titan Dumbbells,Fitness,West,store,1,119,0,119.0
+125,2026-01-29,C0063,Forge Knife Set,Kitchen,East,store,5,139,15,590.75
+126,2025-07-08,C0225,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+127,2025-05-01,C0168,Loop Yoga Mat,Fitness,North,store,2,35,0,70.0
+128,2025-06-25,C0238,Summit Tent,Outdoor,North,web,3,249,0,
+129,2026-05-04,C0021,Pulse Earbuds,Electronics,East,web,2,79,0,158.0
+130,2025-05-23,C0039,Titan Dumbbells,Fitness,East,partner,2,119,0,238.0
+131,2025-10-12,C0004,Pulse Earbuds,Electronics,North,partner,5,79,15,335.75
+132,2026-01-04,C0073,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+133,2025-02-09,C0168,Forge Knife Set,Kitchen,West,partner,1,139,0,139.0
+134,2026-01-04,C0281,Aurora Lamp,Home,West,web,1,49,5,46.55
+135,2026-03-26,C0274,Brew Kettle,Kitchen,North,partner,1,59,15,50.15
+136,2026-02-08,C0158,Vertex Monitor,Electronics,West,web,1,329,15,279.65
+137,2025-12-09,C0187,Pulse Earbuds,Electronics,South,store,2,79,0,158.0
+138,2025-06-01,C0059,Aurora Lamp,Home,North,store,1,49,5,46.55
+139,2025-08-29,C0027,Loop Yoga Mat,Fitness,South,partner,1,35,0,35.0
+140,2025-09-15,C0259,Brew Kettle,Kitchen,South,web,1,59,15,50.15
+141,2025-05-06,C0197,Nimbus Chair,Home,West,web,1,189,0,189.0
+142,2026-04-14,C0028,Aurora Lamp,Home,West,web,2,49,0,98.0
+143,2026-01-04,C0114,Loop Yoga Mat,Fitness,West,partner,1,35,15,29.75
+144,2026-04-10,C0205,Nimbus Chair,Home,South,store,1,189,0,189.0
+145,2025-04-29,C0022,Titan Dumbbells,Fitness,North,partner,5,119,0,595.0
+146,2025-04-08,C0157,Brew Kettle,Kitchen,West,store,2,59,15,100.3
+147,2025-09-30,C0225,Brew Kettle,Kitchen,South,web,2,59,10,
+148,2026-06-19,C0235,Trail Backpack,Outdoor,South,store,2,99,10,178.2
+149,2025-03-04,C0227,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+150,2025-03-15,C0262,Forge Knife Set,Kitchen,North,web,5,139,15,590.75
+151,2026-05-10,C0014,Brew Kettle,Kitchen,North,partner,5,59,0,295.0
+152,2026-04-04,C0085,Pulse Earbuds,Electronics,South,web,2,79,0,158.0
+153,2025-12-30,C0141,Pulse Earbuds,Electronics,West,web,1,79,10,71.1
+154,2026-06-09,C0260,Trail Backpack,Outdoor,South,store,2,99,0,198.0
+155,2025-05-29,C0168,Vertex Monitor,Electronics,West,web,3,329,0,987.0
+156,2025-07-06,C0185,Loop Yoga Mat,Fitness,West,partner,1,35,15,29.75
+157,2026-02-05,C0202,Loop Yoga Mat,Fitness,East,store,1,35,10,31.5
+158,2025-09-01,C0227,Nimbus Chair,Home,South,web,1,189,0,189.0
+159,2026-06-06,C0159,Pulse Earbuds,Electronics,East,partner,2,79,0,
+160,2025-02-05,C0222,Nimbus Chair,Home,West,partner,2,189,15,321.3
+161,2025-02-17,C0024,Trail Backpack,Outdoor,North,web,2,99,15,
+162,2025-08-24,C0115,Aurora Lamp,Home,West,partner,1,49,10,44.1
+163,2025-04-18,C0082,Pulse Earbuds,Electronics,South,web,5,79,5,375.25
+164,2025-06-24,C0075,Nimbus Chair,Home,East,store,1,189,0,189.0
+165,2026-06-10,C0180,Aurora Lamp,Home,West,partner,5,49,10,220.5
+166,2026-02-26,C0032,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+167,2025-05-05,C0283,Loop Yoga Mat,Fitness,South,web,1,35,0,35.0
+168,2025-11-16,C0213,Brew Kettle,Kitchen,South,partner,3,59,15,150.45
+169,2025-07-26,C0276,Aurora Lamp,Home,North,store,3,49,5,139.65
+170,2026-03-03,C0232,Trail Backpack,Outdoor,South,web,3,99,15,252.45
+171,2025-07-04,C0135,Brew Kettle,Kitchen,North,store,1,59,0,59.0
+172,2026-02-01,C0152,Brew Kettle,Kitchen,South,web,2,59,0,118.0
+173,2025-01-19,C0104,Pulse Earbuds,Electronics,South,partner,1,79,15,67.15
+174,2025-05-25,C0195,Vertex Monitor,Electronics,West,store,2,329,0,658.0
+175,2026-02-09,C0120,Loop Yoga Mat,Fitness,East,web,2,35,15,59.5
+176,2025-12-18,C0017,Brew Kettle,Kitchen,North,web,1,59,0,59.0
+177,2026-05-25,C0015,Pulse Earbuds,Electronics,North,web,1,79,15,67.15
+178,2026-01-15,C0024,Aurora Lamp,Home,North,partner,1,49,15,41.65
+179,2025-05-29,C0034,Titan Dumbbells,Fitness,West,web,2,119,15,202.3
+180,2025-05-31,C0045,Aurora Lamp,Home,East,store,5,49,15,208.25
+181,2025-03-26,C0164,Forge Knife Set,Kitchen,East,store,1,139,0,139.0
+182,2025-08-22,C0189,Titan Dumbbells,Fitness,East,partner,1,119,15,101.15
+183,2026-04-20,C0016,Brew Kettle,Kitchen,West,partner,1,59,5,56.05
+184,2025-08-20,C0111,Brew Kettle,Kitchen,North,partner,2,59,10,106.2
+185,2025-05-12,C0028,Aurora Lamp,Home,North,store,1,49,0,49.0
+186,2025-11-02,C0178,Loop Yoga Mat,Fitness,East,partner,1,35,5,33.25
+187,2025-07-17,C0256,Pulse Earbuds,Electronics,South,web,3,79,0,237.0
+188,2026-03-13,C0054,Trail Backpack,Outdoor,East,store,3,99,10,267.3
+189,2026-05-24,C0217,Loop Yoga Mat,Fitness,North,store,3,35,0,105.0
+190,2025-07-05,C0195,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+191,2025-12-23,C0018,Brew Kettle,Kitchen,East,partner,2,59,15,100.3
+192,2025-05-02,C0166,Loop Yoga Mat,Fitness,South,store,3,35,10,94.5
+193,2026-03-16,C0237,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+194,2025-07-26,C0080,Brew Kettle,Kitchen,South,web,5,59,10,265.5
+195,2025-12-27,C0097,Pulse Earbuds,Electronics,East,partner,1,79,0,79.0
+196,2025-05-08,C0078,Brew Kettle,Kitchen,South,store,1,59,5,56.05
+197,2025-10-05,C0144,Pulse Earbuds,Electronics,South,store,3,79,0,237.0
+198,2025-01-17,C0114,Loop Yoga Mat,Fitness,East,store,2,35,15,59.5
+199,2025-07-02,C0125,Forge Knife Set,Kitchen,West,partner,1,139,15,118.15
+200,2026-03-05,C0299,Trail Backpack,Outdoor,South,partner,1,99,15,84.15
+201,2025-04-12,C0051,Trail Backpack,Outdoor,West,web,1,99,15,84.15
+202,2026-02-17,C0248,Brew Kettle,Kitchen,West,web,1,59,5,56.05
+203,2025-09-22,C0168,Brew Kettle,Kitchen,North,store,5,59,0,295.0
+204,2026-05-15,C0112,Aurora Lamp,Home,South,partner,1,49,10,44.1
+205,2026-05-30,C0234,Summit Tent,Outdoor,South,partner,1,249,10,224.1
+206,2025-01-20,C0176,Loop Yoga Mat,Fitness,West,partner,1,35,10,31.5
+207,2025-06-04,C0063,Brew Kettle,Kitchen,East,partner,2,59,10,106.2
+208,2025-07-11,C0215,Vertex Monitor,Electronics,West,partner,1,329,0,329.0
+209,2025-08-23,C0206,Pulse Earbuds,Electronics,South,store,1,79,0,79.0
+210,2025-05-08,C0099,Titan Dumbbells,Fitness,West,partner,1,119,15,101.15
+211,2025-06-14,C0212,Titan Dumbbells,Fitness,West,store,1,119,15,101.15
+212,2026-01-18,C0118,Loop Yoga Mat,Fitness,East,partner,2,35,0,70.0
+213,2025-06-30,C0002,Trail Backpack,Outdoor,East,store,1,99,5,94.05
+214,2025-07-27,C0044,Trail Backpack,Outdoor,East,web,2,99,10,178.2
+215,2026-04-22,C0167,Aurora Lamp,Home,South,partner,5,49,10,220.5
+216,2026-01-10,C0037,Aurora Lamp,Home,East,store,1,49,0,49.0
+217,2025-12-15,C0178,Loop Yoga Mat,Fitness,South,web,1,35,5,33.25
+218,2026-03-24,C0047,Nimbus Chair,Home,East,web,3,189,10,510.3
+219,2025-06-06,C0060,Aurora Lamp,Home,North,store,5,49,5,232.75
+220,2026-04-09,C0248,Trail Backpack,Outdoor,West,web,2,99,0,198.0
+221,2025-06-26,C0004,Nimbus Chair,Home,South,store,2,189,15,321.3
+222,2025-12-07,C0192,Brew Kettle,Kitchen,West,store,5,59,5,280.25
+223,2026-01-30,C0015,Nimbus Chair,Home,North,partner,1,189,15,160.65
+224,2026-02-27,C0262,Titan Dumbbells,Fitness,West,store,5,119,0,595.0
+225,2025-04-25,C0065,Pulse Earbuds,Electronics,East,web,2,79,15,134.3
+226,2025-08-30,C0108,Trail Backpack,Outdoor,East,store,2,99,10,178.2
+227,2025-06-29,C0182,Aurora Lamp,Home,West,store,1,49,0,49.0
+228,2026-06-18,C0253,Loop Yoga Mat,Fitness,North,store,1,35,0,35.0
+229,2026-02-17,C0021,Aurora Lamp,Home,West,partner,3,49,0,147.0
+230,2025-09-20,C0056,Brew Kettle,Kitchen,North,web,2,59,0,118.0
+231,2026-05-21,C0257,Brew Kettle,Kitchen,West,partner,3,59,0,177.0
+232,2026-01-29,C0109,Brew Kettle,Kitchen,North,partner,3,59,0,177.0
+233,2026-01-06,C0019,Nimbus Chair,Home,West,web,3,189,0,567.0
+234,2026-01-21,C0159,Vertex Monitor,Electronics,East,store,5,329,0,1645.0
+235,2025-02-06,C0297,Aurora Lamp,Home,North,store,2,49,15,83.3
+236,2025-02-10,C0295,Aurora Lamp,Home,West,store,5,49,5,232.75
+237,2026-02-01,C0244,Brew Kettle,Kitchen,West,partner,3,59,0,177.0
+238,2026-01-15,C0008,Pulse Earbuds,Electronics,West,web,1,79,15,
+239,2026-01-27,C0112,Titan Dumbbells,Fitness,North,web,5,119,0,595.0
+240,2025-07-12,C0096,Brew Kettle,Kitchen,North,store,2,59,15,100.3
+241,2026-02-17,C0151,Loop Yoga Mat,Fitness,West,store,3,35,0,105.0
+242,2026-05-07,C0017,Loop Yoga Mat,Fitness,North,web,1,35,15,29.75
+243,2026-01-18,C0160,Loop Yoga Mat,Fitness,East,partner,1,35,5,33.25
+244,2026-06-06,C0162,Loop Yoga Mat,Fitness,East,partner,2,35,0,70.0
+245,2025-10-23,C0186,Nimbus Chair,Home,South,partner,5,189,0,945.0
+246,2025-10-26,C0291,Loop Yoga Mat,Fitness,East,store,2,35,0,70.0
+247,2026-01-05,C0171,Brew Kettle,Kitchen,North,web,5,59,10,265.5
+248,2025-07-30,C0199,Trail Backpack,Outdoor,West,partner,1,99,5,94.05
+249,2025-06-19,C0165,Trail Backpack,Outdoor,East,store,3,99,0,297.0
+250,2025-12-19,C0148,Loop Yoga Mat,Fitness,South,partner,5,35,0,175.0
+251,2026-06-14,C0256,Loop Yoga Mat,Fitness,East,partner,2,35,15,59.5
+252,2025-12-03,C0120,Loop Yoga Mat,Fitness,East,partner,1,35,15,29.75
+253,2025-09-15,C0005,Forge Knife Set,Kitchen,West,store,1,139,10,125.1
+254,2025-11-24,C0204,Pulse Earbuds,Electronics,East,partner,1,79,0,79.0
+255,2025-11-10,C0048,Pulse Earbuds,Electronics,South,partner,1,79,0,79.0
+256,2025-12-15,C0077,Pulse Earbuds,Electronics,South,web,5,79,10,355.5
+257,2025-11-03,C0238,Loop Yoga Mat,Fitness,North,web,1,35,15,29.75
+258,2025-02-02,C0049,Pulse Earbuds,Electronics,North,web,2,79,0,158.0
+259,2026-04-27,C0134,Trail Backpack,Outdoor,East,store,2,99,0,198.0
+260,2025-10-11,C0131,Brew Kettle,Kitchen,North,store,2,59,0,118.0
+261,2025-05-18,C0286,Aurora Lamp,Home,East,partner,1,49,0,49.0
+262,2026-06-02,C0204,Loop Yoga Mat,Fitness,North,partner,1,35,10,31.5
+263,2025-07-02,C0260,Brew Kettle,Kitchen,West,web,3,59,0,177.0
+264,2025-05-05,C0089,Titan Dumbbells,Fitness,North,store,3,119,0,357.0
+265,2025-02-26,C0133,Summit Tent,Outdoor,West,web,1,249,0,249.0
+266,2025-08-04,C0153,Aurora Lamp,Home,West,partner,1,49,15,41.65
+267,2025-08-08,C0247,Pulse Earbuds,Electronics,West,web,1,79,0,79.0
+268,2026-04-01,C0100,Loop Yoga Mat,Fitness,North,web,1,35,5,33.25
+269,2025-06-11,C0072,Titan Dumbbells,Fitness,West,web,5,119,0,595.0
+270,2025-09-09,C0174,Aurora Lamp,Home,East,web,1,49,5,46.55
+271,2026-01-08,C0030,Nimbus Chair,Home,South,partner,1,189,15,160.65
+272,2026-05-07,C0215,Trail Backpack,Outdoor,West,web,1,99,0,99.0
+273,2025-07-10,C0134,Loop Yoga Mat,Fitness,West,web,1,35,0,35.0
+274,2026-05-13,C0109,Aurora Lamp,Home,West,store,2,49,0,98.0
+275,2026-03-08,C0123,Titan Dumbbells,Fitness,South,web,2,119,0,238.0
+276,2025-09-25,C0151,Nimbus Chair,Home,South,partner,5,189,15,803.25
+277,2026-03-31,C0001,Pulse Earbuds,Electronics,East,web,1,79,5,75.05
+278,2025-02-11,C0093,Vertex Monitor,Electronics,South,web,1,329,10,296.1
+279,2025-06-16,C0045,Nimbus Chair,Home,West,store,2,189,0,378.0
+280,2025-04-21,C0299,Brew Kettle,Kitchen,East,web,3,59,0,177.0
+281,2026-02-07,C0029,Summit Tent,Outdoor,East,store,5,249,15,1058.25
+282,2026-01-13,C0210,Titan Dumbbells,Fitness,West,web,1,119,0,119.0
+283,2025-07-07,C0019,Nimbus Chair,Home,South,partner,5,189,0,945.0
+284,2025-12-23,C0265,Aurora Lamp,Home,North,web,2,49,5,93.1
+285,2025-06-25,C0196,Loop Yoga Mat,Fitness,North,store,1,35,15,29.75
+286,2026-06-05,C0272,Trail Backpack,Outdoor,South,web,2,99,0,198.0
+287,2025-03-19,C0160,Brew Kettle,Kitchen,East,partner,1,59,0,59.0
+288,2025-02-02,C0100,Aurora Lamp,Home,East,web,3,49,15,124.95
+289,2026-01-12,C0228,Trail Backpack,Outdoor,North,store,1,99,15,84.15
+290,2026-02-18,C0253,Aurora Lamp,Home,East,web,1,49,5,46.55
+291,2025-09-20,C0117,Nimbus Chair,Home,South,partner,2,189,0,378.0
+292,2026-03-04,C0200,Nimbus Chair,Home,West,partner,5,189,0,945.0
+293,2025-11-19,C0174,Vertex Monitor,Electronics,West,web,1,329,0,329.0
+294,2026-02-18,C0206,Loop Yoga Mat,Fitness,North,store,2,35,0,70.0
+295,2026-06-06,C0006,Titan Dumbbells,Fitness,East,web,1,119,5,113.05
+296,2025-03-05,C0011,Trail Backpack,Outdoor,South,web,2,99,15,168.3
+297,2025-09-15,C0024,Titan Dumbbells,Fitness,North,web,2,119,15,202.3
+298,2026-01-04,C0278,Loop Yoga Mat,Fitness,North,partner,2,35,0,70.0
+299,2025-04-11,C0148,Aurora Lamp,Home,North,store,1,49,0,49.0
+300,2025-05-09,C0044,Aurora Lamp,Home,West,partner,2,49,0,98.0
+301,2025-04-28,C0209,Aurora Lamp,Home,East,store,1,49,0,49.0
+302,2025-03-19,C0292,Summit Tent,Outdoor,South,partner,5,249,5,1182.75
+303,2025-12-01,C0245,Pulse Earbuds,Electronics,West,store,2,79,0,158.0
+304,2025-08-13,C0300,Nimbus Chair,Home,West,web,2,189,5,359.1
+305,2025-05-07,C0167,Titan Dumbbells,Fitness,West,store,1,119,10,107.1
+306,2026-06-19,C0082,Pulse Earbuds,Electronics,North,partner,5,79,0,395.0
+307,2025-10-07,C0182,Aurora Lamp,Home,North,partner,2,49,5,93.1
+308,2026-06-07,C0173,Forge Knife Set,Kitchen,East,web,1,139,5,132.05
+309,2026-01-02,C0049,Loop Yoga Mat,Fitness,West,store,5,35,10,157.5
+310,2026-02-14,C0053,Loop Yoga Mat,Fitness,North,store,1,35,5,33.25
+311,2025-12-19,C0214,Trail Backpack,Outdoor,East,partner,2,99,0,198.0
+312,2025-09-06,C0181,Trail Backpack,Outdoor,East,store,2,99,0,198.0
+313,2025-12-04,C0256,Vertex Monitor,Electronics,West,store,1,329,0,329.0
+314,2025-11-25,C0194,Loop Yoga Mat,Fitness,South,web,2,35,10,63.0
+315,2025-08-11,C0167,Titan Dumbbells,Fitness,South,store,2,119,0,238.0
+316,2026-06-05,C0255,Aurora Lamp,Home,East,partner,1,49,10,44.1
+317,2025-11-26,C0221,Titan Dumbbells,Fitness,West,store,2,119,10,214.2
+318,2025-12-23,C0035,Pulse Earbuds,Electronics,South,web,1,79,15,67.15
+319,2025-11-07,C0097,Brew Kettle,Kitchen,West,store,2,59,0,118.0
+320,2026-03-13,C0272,Loop Yoga Mat,Fitness,North,web,2,35,0,70.0
+321,2025-08-30,C0090,Aurora Lamp,Home,North,partner,1,49,10,44.1
+322,2026-02-06,C0081,Loop Yoga Mat,Fitness,East,partner,2,35,5,66.5
+323,2026-05-09,C0290,Trail Backpack,Outdoor,North,store,1,99,15,84.15
+324,2026-01-09,C0006,Forge Knife Set,Kitchen,North,store,3,139,5,396.15
+325,2025-12-03,C0008,Loop Yoga Mat,Fitness,North,web,2,35,0,70.0
+326,2026-03-14,C0273,Brew Kettle,Kitchen,South,partner,5,59,15,250.75
+327,2025-12-26,C0055,Nimbus Chair,Home,North,web,2,189,10,340.2
+328,2026-06-02,C0221,Trail Backpack,Outdoor,North,partner,2,99,10,178.2
+329,2026-03-15,C0182,Pulse Earbuds,Electronics,East,web,3,79,0,237.0
+330,2026-01-08,C0179,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+331,2025-01-24,C0023,Pulse Earbuds,Electronics,West,web,2,79,10,142.2
+332,2025-06-27,C0162,Aurora Lamp,Home,North,store,2,49,0,98.0
+333,2025-12-27,C0125,Titan Dumbbells,Fitness,West,partner,2,119,0,238.0
+334,2025-06-11,C0012,Pulse Earbuds,Electronics,South,web,3,79,5,225.15
+335,2025-08-26,C0288,Nimbus Chair,Home,East,web,1,189,5,179.55
+336,2026-04-29,C0064,Pulse Earbuds,Electronics,West,store,3,79,0,237.0
+337,2025-09-10,C0224,Trail Backpack,Outdoor,North,store,1,99,0,99.0
+338,2025-08-17,C0048,Nimbus Chair,Home,South,store,3,189,0,567.0
+339,2026-03-23,C0082,Summit Tent,Outdoor,East,store,2,249,0,498.0
+340,2025-09-20,C0153,Brew Kettle,Kitchen,West,partner,2,59,0,118.0
+341,2026-04-23,C0226,Brew Kettle,Kitchen,East,partner,3,59,0,177.0
+342,2025-12-29,C0263,Pulse Earbuds,Electronics,North,partner,5,79,0,395.0
+343,2026-02-27,C0291,Loop Yoga Mat,Fitness,South,store,1,35,15,29.75
+344,2026-02-15,C0165,Brew Kettle,Kitchen,South,partner,5,59,0,295.0
+345,2025-03-04,C0153,Loop Yoga Mat,Fitness,South,web,5,35,10,157.5
+346,2025-03-19,C0205,Pulse Earbuds,Electronics,East,store,5,79,15,335.75
+347,2026-05-16,C0142,Loop Yoga Mat,Fitness,South,web,3,35,0,105.0
+348,2026-03-28,C0237,Brew Kettle,Kitchen,South,store,2,59,0,118.0
+349,2026-01-08,C0113,Nimbus Chair,Home,North,store,1,189,0,189.0
+350,2025-05-06,C0195,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+351,2026-01-13,C0292,Nimbus Chair,Home,West,partner,5,189,0,945.0
+352,2026-05-23,C0001,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+353,2025-02-13,C0025,Loop Yoga Mat,Fitness,South,partner,2,35,15,59.5
+354,2026-03-24,C0045,Pulse Earbuds,Electronics,West,partner,1,79,15,67.15
+355,2026-06-24,C0270,Brew Kettle,Kitchen,North,store,1,59,0,59.0
+356,2025-09-29,C0232,Titan Dumbbells,Fitness,North,partner,3,119,10,321.3
+357,2025-10-02,C0251,Trail Backpack,Outdoor,South,web,5,99,0,495.0
+358,2026-04-09,C0084,Brew Kettle,Kitchen,South,partner,1,59,10,53.1
+359,2026-06-09,C0048,Nimbus Chair,Home,South,partner,1,189,5,179.55
+360,2025-04-20,C0122,Forge Knife Set,Kitchen,South,web,3,139,5,396.15
+361,2025-10-10,C0154,Titan Dumbbells,Fitness,South,partner,1,119,15,101.15
+362,2025-12-08,C0281,Pulse Earbuds,Electronics,West,web,5,79,0,395.0
+363,2025-05-02,C0106,Titan Dumbbells,Fitness,North,partner,5,119,5,565.25
+364,2025-08-27,C0156,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+365,2025-10-12,C0240,Aurora Lamp,Home,East,store,1,49,5,46.55
+366,2025-03-07,C0043,Aurora Lamp,Home,East,partner,5,49,5,232.75
+367,2025-04-02,C0098,Trail Backpack,Outdoor,East,web,2,99,5,188.1
+368,2025-03-21,C0129,Pulse Earbuds,Electronics,South,web,2,79,15,134.3
+369,2025-01-31,C0152,Loop Yoga Mat,Fitness,East,web,5,35,0,175.0
+370,2025-11-19,C0053,Loop Yoga Mat,Fitness,East,partner,3,35,0,105.0
+371,2025-09-06,C0118,Brew Kettle,Kitchen,East,web,1,59,0,59.0
+372,2025-09-01,C0022,Loop Yoga Mat,Fitness,North,partner,1,35,0,35.0
+373,2026-05-21,C0111,Titan Dumbbells,Fitness,West,store,2,119,0,238.0
+374,2025-05-04,C0042,Pulse Earbuds,Electronics,South,partner,2,79,15,134.3
+375,2025-04-21,C0021,Brew Kettle,Kitchen,West,store,2,59,0,118.0
+376,2026-02-21,C0262,Aurora Lamp,Home,West,web,5,49,10,220.5
+377,2026-01-24,C0033,Trail Backpack,Outdoor,West,web,2,99,0,198.0
+378,2026-04-09,C0152,Loop Yoga Mat,Fitness,North,store,1,35,5,33.25
+379,2026-01-30,C0278,Brew Kettle,Kitchen,East,partner,2,59,0,118.0
+380,2026-06-12,C0206,Loop Yoga Mat,Fitness,North,web,5,35,0,175.0
+381,2025-08-12,C0216,Brew Kettle,Kitchen,East,store,2,59,10,106.2
+382,2025-04-21,C0015,Loop Yoga Mat,Fitness,South,web,2,35,15,59.5
+383,2025-10-11,C0191,Aurora Lamp,Home,West,store,3,49,10,132.3
+384,2025-12-08,C0093,Vertex Monitor,Electronics,South,partner,1,329,0,329.0
+385,2025-06-11,C0097,Loop Yoga Mat,Fitness,East,partner,3,35,0,105.0
+386,2025-12-03,C0058,Pulse Earbuds,Electronics,North,store,2,79,15,134.3
+387,2026-03-28,C0260,Nimbus Chair,Home,North,partner,2,189,10,340.2
+388,2026-02-20,C0201,Aurora Lamp,Home,South,web,5,49,15,208.25
+389,2026-03-17,C0030,Nimbus Chair,Home,West,web,5,189,10,850.5
+390,2025-02-12,C0154,Brew Kettle,Kitchen,North,partner,1,59,5,56.05
+391,2026-05-16,C0289,Aurora Lamp,Home,North,partner,5,49,0,245.0
+392,2025-05-10,C0006,Forge Knife Set,Kitchen,East,web,1,139,15,118.15
+393,2025-11-13,C0251,Summit Tent,Outdoor,North,partner,1,249,15,211.65
+394,2025-08-25,C0018,Pulse Earbuds,Electronics,South,store,2,79,0,158.0
+395,2026-02-08,C0059,Aurora Lamp,Home,North,store,2,49,5,93.1
+396,2026-03-29,C0195,Nimbus Chair,Home,South,partner,2,189,0,378.0
+397,2025-11-26,C0228,Brew Kettle,Kitchen,North,web,5,59,0,295.0
+398,2025-04-29,C0019,Trail Backpack,Outdoor,North,web,5,99,0,495.0
+399,2026-01-16,C0082,Brew Kettle,Kitchen,West,store,5,59,5,280.25
+400,2026-06-06,C0271,Summit Tent,Outdoor,South,store,1,249,0,249.0
+401,2025-12-20,C0240,Aurora Lamp,Home,East,partner,1,49,0,49.0
+402,2026-05-28,C0248,Pulse Earbuds,Electronics,East,web,1,79,10,71.1
+403,2025-10-17,C0075,Titan Dumbbells,Fitness,South,store,1,119,15,101.15
+404,2025-03-01,C0294,Titan Dumbbells,Fitness,South,partner,1,119,10,107.1
+405,2025-12-06,C0219,Loop Yoga Mat,Fitness,North,store,5,35,0,175.0
+406,2026-03-25,C0037,Pulse Earbuds,Electronics,East,store,5,79,0,395.0
+407,2025-11-11,C0208,Brew Kettle,Kitchen,East,web,1,59,10,53.1
+408,2026-01-28,C0258,Loop Yoga Mat,Fitness,East,web,5,35,5,166.25
+409,2026-06-23,C0233,Nimbus Chair,Home,West,store,1,189,0,189.0
+410,2026-03-16,C0074,Titan Dumbbells,Fitness,East,partner,2,119,0,238.0
+411,2026-02-23,C0098,Summit Tent,Outdoor,North,partner,1,249,0,249.0
+412,2025-12-16,C0220,Titan Dumbbells,Fitness,North,store,1,119,15,101.15
+413,2025-05-15,C0085,Loop Yoga Mat,Fitness,East,web,2,35,0,70.0
+414,2025-06-09,C0145,Vertex Monitor,Electronics,North,web,1,329,10,296.1
+415,2025-02-24,C0038,Aurora Lamp,Home,East,partner,1,49,0,49.0
+416,2025-05-22,C0166,Summit Tent,Outdoor,North,web,1,249,15,211.65
+417,2026-04-28,C0173,Aurora Lamp,Home,South,web,2,49,5,93.1
+418,2026-03-27,C0254,Aurora Lamp,Home,West,store,2,49,0,98.0
+419,2026-04-30,C0161,Aurora Lamp,Home,North,store,1,49,10,44.1
+420,2026-02-22,C0080,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+421,2026-04-15,C0177,Pulse Earbuds,Electronics,South,partner,1,79,5,75.05
+422,2025-12-13,C0245,Pulse Earbuds,Electronics,North,partner,2,79,0,158.0
+423,2026-03-16,C0143,Titan Dumbbells,Fitness,East,partner,2,119,10,214.2
+424,2025-07-11,C0052,Pulse Earbuds,Electronics,East,web,2,79,5,150.1
+425,2025-06-15,C0069,Forge Knife Set,Kitchen,North,web,1,139,0,139.0
+426,2025-06-01,C0188,Loop Yoga Mat,Fitness,South,web,1,35,10,31.5
+427,2026-04-22,C0180,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+428,2025-11-06,C0236,Brew Kettle,Kitchen,South,store,1,59,5,56.05
+429,2025-01-30,C0206,Brew Kettle,Kitchen,East,web,1,59,0,59.0
+430,2025-09-04,C0115,Loop Yoga Mat,Fitness,North,store,2,35,15,59.5
+431,2026-02-15,C0167,Pulse Earbuds,Electronics,West,partner,1,79,0,79.0
+432,2026-05-03,C0245,Trail Backpack,Outdoor,East,web,2,99,0,198.0
+433,2025-07-16,C0083,Pulse Earbuds,Electronics,East,partner,2,79,0,158.0
+434,2026-06-06,C0185,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+435,2026-04-26,C0013,Titan Dumbbells,Fitness,North,web,1,119,15,101.15
+436,2025-01-13,C0181,Loop Yoga Mat,Fitness,North,web,1,35,10,31.5
+437,2025-09-15,C0204,Trail Backpack,Outdoor,East,web,3,99,15,252.45
+438,2025-05-30,C0070,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+439,2025-03-30,C0057,Aurora Lamp,Home,North,store,1,49,0,49.0
+440,2025-11-19,C0277,Aurora Lamp,Home,South,partner,1,49,15,41.65
+441,2025-11-07,C0040,Aurora Lamp,Home,East,web,1,49,5,46.55
+442,2026-06-12,C0091,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+443,2026-06-10,C0285,Pulse Earbuds,Electronics,East,store,1,79,5,75.05
+444,2026-02-05,C0281,Brew Kettle,Kitchen,East,partner,2,59,0,118.0
+445,2026-06-22,C0217,Forge Knife Set,Kitchen,East,partner,1,139,5,132.05
+446,2026-06-13,C0074,Vertex Monitor,Electronics,North,web,2,329,5,625.1
+447,2026-05-23,C0194,Pulse Earbuds,Electronics,South,web,2,79,15,134.3
+448,2025-03-18,C0026,Brew Kettle,Kitchen,West,partner,1,59,15,50.15
+449,2026-02-03,C0234,Trail Backpack,Outdoor,North,store,3,99,0,297.0
+450,2026-04-21,C0195,Trail Backpack,Outdoor,South,partner,2,99,10,178.2
+451,2026-04-28,C0270,Pulse Earbuds,Electronics,East,partner,1,79,5,75.05
+452,2026-04-09,C0115,Aurora Lamp,Home,East,store,5,49,10,220.5
+453,2025-10-24,C0245,Forge Knife Set,Kitchen,South,web,2,139,10,250.2
+454,2026-03-09,C0087,Pulse Earbuds,Electronics,East,web,1,79,10,71.1
+455,2025-04-30,C0023,Brew Kettle,Kitchen,East,store,1,59,15,50.15
+456,2026-04-26,C0129,Trail Backpack,Outdoor,West,web,2,99,0,198.0
+457,2026-01-24,C0046,Summit Tent,Outdoor,East,store,1,249,5,236.55
+458,2025-10-11,C0090,Aurora Lamp,Home,South,web,3,49,5,139.65
+459,2025-08-31,C0190,Summit Tent,Outdoor,East,store,1,249,10,224.1
+460,2025-12-04,C0092,Aurora Lamp,Home,East,partner,1,49,0,49.0
+461,2026-05-19,C0047,Pulse Earbuds,Electronics,West,web,1,79,5,75.05
+462,2025-09-29,C0023,Loop Yoga Mat,Fitness,West,store,2,35,0,70.0
+463,2026-02-16,C0132,Pulse Earbuds,Electronics,East,web,2,79,5,150.1
+464,2025-12-15,C0298,Loop Yoga Mat,Fitness,East,web,1,35,15,29.75
+465,2025-08-11,C0195,Aurora Lamp,Home,West,partner,5,49,5,232.75
+466,2026-05-28,C0056,Brew Kettle,Kitchen,West,store,5,59,0,295.0
+467,2025-10-06,C0226,Titan Dumbbells,Fitness,West,store,1,119,0,119.0
+468,2026-03-07,C0103,Aurora Lamp,Home,West,partner,1,49,15,41.65
+469,2026-02-01,C0236,Summit Tent,Outdoor,North,web,5,249,5,1182.75
+470,2025-03-11,C0046,Loop Yoga Mat,Fitness,South,partner,1,35,5,33.25
+471,2026-04-08,C0029,Pulse Earbuds,Electronics,West,partner,1,79,5,75.05
+472,2025-09-21,C0165,Aurora Lamp,Home,East,web,3,49,0,147.0
+473,2025-01-10,C0135,Titan Dumbbells,Fitness,North,store,1,119,10,107.1
+474,2026-01-25,C0216,Pulse Earbuds,Electronics,North,store,2,79,10,142.2
+475,2026-04-27,C0132,Loop Yoga Mat,Fitness,East,web,5,35,10,157.5
+476,2025-06-03,C0251,Brew Kettle,Kitchen,South,store,2,59,15,100.3
+477,2025-08-17,C0027,Trail Backpack,Outdoor,East,web,3,99,10,267.3
+478,2025-09-22,C0141,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+479,2026-02-15,C0233,Loop Yoga Mat,Fitness,West,partner,2,35,10,63.0
+480,2026-05-02,C0064,Aurora Lamp,Home,North,web,2,49,15,83.3
+481,2025-03-07,C0288,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+482,2026-02-20,C0274,Forge Knife Set,Kitchen,South,web,5,139,0,695.0
+483,2026-02-18,C0104,Summit Tent,Outdoor,North,web,2,249,0,498.0
+484,2026-01-22,C0218,Pulse Earbuds,Electronics,South,web,2,79,15,134.3
+485,2025-04-18,C0120,Nimbus Chair,Home,East,partner,2,189,0,378.0
+486,2025-05-01,C0110,Loop Yoga Mat,Fitness,South,partner,1,35,10,31.5
+487,2025-09-13,C0150,Aurora Lamp,Home,South,partner,2,49,0,98.0
+488,2025-03-23,C0221,Trail Backpack,Outdoor,East,partner,3,99,0,297.0
+489,2025-02-10,C0269,Pulse Earbuds,Electronics,North,store,3,79,0,237.0
+490,2025-01-22,C0249,Loop Yoga Mat,Fitness,East,store,1,35,0,35.0
+491,2025-11-27,C0139,Aurora Lamp,Home,South,partner,1,49,5,46.55
+492,2025-02-04,C0100,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+493,2025-05-13,C0169,Pulse Earbuds,Electronics,East,web,2,79,0,158.0
+494,2026-04-12,C0233,Loop Yoga Mat,Fitness,North,partner,3,35,10,94.5
+495,2026-03-23,C0018,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+496,2025-09-24,C0181,Brew Kettle,Kitchen,North,store,2,59,10,106.2
+497,2026-02-26,C0170,Pulse Earbuds,Electronics,North,partner,3,79,0,237.0
+498,2025-10-28,C0123,Nimbus Chair,Home,North,web,1,189,0,189.0
+499,2025-11-24,C0084,Aurora Lamp,Home,North,partner,2,49,0,98.0
+500,2026-06-03,C0066,Pulse Earbuds,Electronics,South,partner,2,79,0,158.0
+501,2025-11-08,C0028,Loop Yoga Mat,Fitness,West,partner,1,35,0,35.0
+502,2026-02-05,C0079,Pulse Earbuds,Electronics,East,web,5,79,0,395.0
+503,2026-01-06,C0044,Aurora Lamp,Home,South,web,2,49,0,98.0
+504,2026-03-17,C0126,Trail Backpack,Outdoor,North,partner,5,99,0,495.0
+505,2025-03-26,C0090,Pulse Earbuds,Electronics,East,store,5,79,15,335.75
+506,2026-03-10,C0163,Brew Kettle,Kitchen,West,store,1,59,0,59.0
+507,2026-03-23,C0086,Nimbus Chair,Home,South,store,2,189,15,321.3
+508,2025-06-01,C0035,Loop Yoga Mat,Fitness,North,store,3,35,0,105.0
+509,2025-11-19,C0033,Pulse Earbuds,Electronics,South,partner,1,79,10,71.1
+510,2025-08-30,C0179,Vertex Monitor,Electronics,South,store,3,329,15,838.95
+511,2026-03-03,C0156,Nimbus Chair,Home,North,partner,5,189,15,803.25
+512,2026-03-23,C0198,Brew Kettle,Kitchen,East,partner,1,59,5,56.05
+513,2025-11-22,C0130,Titan Dumbbells,Fitness,South,web,1,119,0,119.0
+514,2025-10-17,C0026,Pulse Earbuds,Electronics,West,partner,2,79,10,142.2
+515,2026-03-25,C0208,Brew Kettle,Kitchen,North,web,1,59,5,56.05
+516,2026-04-14,C0157,Pulse Earbuds,Electronics,North,store,2,79,5,150.1
+517,2025-01-21,C0215,Aurora Lamp,Home,West,partner,5,49,5,232.75
+518,2025-04-26,C0202,Summit Tent,Outdoor,West,partner,1,249,0,249.0
+519,2025-08-14,C0227,Titan Dumbbells,Fitness,West,partner,1,119,15,101.15
+520,2025-06-23,C0193,Pulse Earbuds,Electronics,South,store,3,79,0,237.0
+521,2026-06-06,C0202,Pulse Earbuds,Electronics,East,store,1,79,0,79.0
+522,2026-05-01,C0084,Loop Yoga Mat,Fitness,West,partner,2,35,0,
+523,2026-04-21,C0290,Aurora Lamp,Home,East,partner,1,49,5,46.55
+524,2025-03-28,C0193,Summit Tent,Outdoor,South,store,5,249,10,1120.5
+525,2025-03-10,C0152,Brew Kettle,Kitchen,East,store,2,59,0,118.0
+526,2026-01-10,C0031,Vertex Monitor,Electronics,West,store,2,329,15,559.3
+527,2026-06-14,C0061,Aurora Lamp,Home,West,store,5,49,15,208.25
+528,2025-11-13,C0235,Nimbus Chair,Home,North,store,2,189,15,321.3
+529,2025-01-11,C0097,Titan Dumbbells,Fitness,North,store,1,119,0,119.0
+530,2025-12-20,C0150,Titan Dumbbells,Fitness,North,store,3,119,0,357.0
+531,2025-09-21,C0195,Aurora Lamp,Home,West,partner,3,49,15,124.95
+532,2026-05-13,C0254,Pulse Earbuds,Electronics,North,partner,5,79,10,355.5
+533,2025-04-22,C0158,Summit Tent,Outdoor,South,partner,1,249,0,249.0
+534,2025-02-21,C0096,Pulse Earbuds,Electronics,East,store,2,79,0,158.0
+535,2025-10-25,C0056,Brew Kettle,Kitchen,East,store,2,59,5,112.1
+536,2025-09-09,C0105,Titan Dumbbells,Fitness,West,partner,1,119,0,119.0
+537,2026-01-12,C0078,Loop Yoga Mat,Fitness,East,partner,1,35,0,35.0
+538,2025-12-05,C0141,Brew Kettle,Kitchen,West,store,5,59,0,295.0
+539,2025-09-15,C0063,Loop Yoga Mat,Fitness,East,store,5,35,15,148.75
+540,2025-02-12,C0182,Loop Yoga Mat,Fitness,East,store,2,35,0,70.0
+541,2026-05-06,C0212,Loop Yoga Mat,Fitness,North,store,1,35,10,31.5
+542,2025-05-15,C0061,Forge Knife Set,Kitchen,West,store,3,139,15,354.45
+543,2026-03-24,C0256,Loop Yoga Mat,Fitness,East,store,2,35,5,66.5
+544,2026-02-16,C0212,Nimbus Chair,Home,East,web,3,189,10,510.3
+545,2026-02-02,C0002,Loop Yoga Mat,Fitness,South,partner,1,35,10,31.5
+546,2025-06-07,C0068,Forge Knife Set,Kitchen,South,web,5,139,15,590.75
+547,2026-03-07,C0196,Trail Backpack,Outdoor,East,web,1,99,0,99.0
+548,2026-05-01,C0035,Vertex Monitor,Electronics,East,partner,1,329,15,279.65
+549,2025-06-13,C0041,Aurora Lamp,Home,East,web,3,49,10,132.3
+550,2025-03-07,C0002,Loop Yoga Mat,Fitness,West,partner,1,35,0,35.0
+551,2025-10-11,C0285,Trail Backpack,Outdoor,North,web,2,99,10,178.2
+552,2025-10-21,C0175,Trail Backpack,Outdoor,East,partner,1,99,15,84.15
+553,2025-06-09,C0296,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+554,2025-02-01,C0033,Trail Backpack,Outdoor,East,partner,2,99,0,198.0
+555,2025-04-04,C0116,Vertex Monitor,Electronics,North,store,2,329,5,625.1
+556,2025-08-11,C0245,Titan Dumbbells,Fitness,South,store,1,119,15,101.15
+557,2026-02-02,C0175,Forge Knife Set,Kitchen,South,web,2,139,0,278.0
+558,2025-07-16,C0009,Pulse Earbuds,Electronics,West,web,3,79,10,213.3
+559,2026-03-02,C0152,Loop Yoga Mat,Fitness,North,partner,1,35,10,31.5
+560,2026-02-19,C0007,Aurora Lamp,Home,East,partner,1,49,5,46.55
+561,2025-05-07,C0054,Brew Kettle,Kitchen,North,partner,1,59,0,59.0
+562,2025-08-24,C0233,Loop Yoga Mat,Fitness,North,store,5,35,15,148.75
+563,2025-05-01,C0043,Loop Yoga Mat,Fitness,East,store,2,35,5,66.5
+564,2026-04-07,C0289,Aurora Lamp,Home,East,partner,1,49,10,44.1
+565,2025-08-24,C0143,Brew Kettle,Kitchen,West,partner,1,59,15,50.15
+566,2025-05-06,C0071,Loop Yoga Mat,Fitness,North,web,2,35,0,70.0
+567,2025-12-18,C0238,Vertex Monitor,Electronics,North,web,1,329,0,329.0
+568,2025-11-23,C0287,Aurora Lamp,Home,West,store,1,49,0,49.0
+569,2026-05-14,C0196,Aurora Lamp,Home,North,web,1,49,0,49.0
+570,2025-04-14,C0300,Pulse Earbuds,Electronics,West,web,2,79,10,142.2
+571,2026-02-19,C0123,Loop Yoga Mat,Fitness,West,partner,1,35,5,33.25
+572,2025-12-28,C0196,Aurora Lamp,Home,North,partner,2,49,10,88.2
+573,2026-06-19,C0115,Pulse Earbuds,Electronics,North,web,2,79,10,142.2
+574,2026-06-14,C0025,Loop Yoga Mat,Fitness,West,web,1,35,5,33.25
+575,2026-06-07,C0296,Loop Yoga Mat,Fitness,West,store,1,35,10,31.5
+576,2025-10-22,C0050,Trail Backpack,Outdoor,South,web,1,99,15,84.15
+577,2025-05-07,C0196,Trail Backpack,Outdoor,North,web,1,99,10,89.1
+578,2025-12-04,C0276,Loop Yoga Mat,Fitness,North,partner,2,35,10,63.0
+579,2025-11-29,C0004,Pulse Earbuds,Electronics,South,web,2,79,15,134.3
+580,2025-11-10,C0107,Loop Yoga Mat,Fitness,West,web,1,35,0,35.0
+581,2025-03-18,C0045,Summit Tent,Outdoor,South,web,3,249,0,747.0
+582,2025-07-11,C0253,Pulse Earbuds,Electronics,East,web,1,79,0,
+583,2025-03-09,C0110,Aurora Lamp,Home,West,store,3,49,10,132.3
+584,2026-05-22,C0041,Brew Kettle,Kitchen,North,web,1,59,15,50.15
+585,2025-02-03,C0029,Brew Kettle,Kitchen,South,partner,5,59,5,280.25
+586,2025-10-08,C0179,Forge Knife Set,Kitchen,North,store,1,139,0,139.0
+587,2025-05-06,C0243,Nimbus Chair,Home,East,store,3,189,15,481.95
+588,2025-01-17,C0279,Summit Tent,Outdoor,East,store,1,249,0,
+589,2026-03-15,C0273,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+590,2026-04-20,C0033,Trail Backpack,Outdoor,North,store,1,99,0,99.0
+591,2025-11-22,C0209,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+592,2025-07-19,C0134,Loop Yoga Mat,Fitness,West,partner,1,35,15,29.75
+593,2026-06-02,C0086,Brew Kettle,Kitchen,East,store,2,59,15,100.3
+594,2025-07-02,C0133,Aurora Lamp,Home,South,partner,3,49,0,147.0
+595,2025-03-04,C0035,Vertex Monitor,Electronics,North,web,1,329,0,329.0
+596,2025-04-24,C0262,Aurora Lamp,Home,East,store,2,49,15,83.3
+597,2025-03-27,C0089,Pulse Earbuds,Electronics,West,partner,2,79,15,134.3
+598,2026-04-25,C0016,Trail Backpack,Outdoor,West,web,1,99,0,99.0
+599,2025-06-04,C0006,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+600,2025-05-04,C0135,Brew Kettle,Kitchen,South,web,2,59,0,118.0
+601,2025-03-25,C0046,Titan Dumbbells,Fitness,South,web,2,119,0,238.0
+602,2025-01-19,C0187,Loop Yoga Mat,Fitness,South,web,1,35,0,35.0
+603,2026-02-28,C0058,Vertex Monitor,Electronics,South,web,1,329,10,296.1
+604,2025-09-07,C0100,Loop Yoga Mat,Fitness,South,store,1,35,15,29.75
+605,2025-06-22,C0026,Loop Yoga Mat,Fitness,North,partner,1,35,0,35.0
+606,2025-09-01,C0250,Pulse Earbuds,Electronics,North,web,2,79,5,150.1
+607,2026-02-16,C0246,Aurora Lamp,Home,South,web,1,49,5,46.55
+608,2025-02-27,C0228,Nimbus Chair,Home,West,web,1,189,0,189.0
+609,2025-12-04,C0111,Aurora Lamp,Home,West,web,1,49,5,46.55
+610,2025-10-03,C0262,Aurora Lamp,Home,East,web,2,49,0,98.0
+611,2025-10-26,C0068,Trail Backpack,Outdoor,North,store,2,99,15,168.3
+612,2025-03-26,C0035,Pulse Earbuds,Electronics,North,partner,5,79,0,395.0
+613,2025-10-28,C0264,Nimbus Chair,Home,North,partner,1,189,15,160.65
+614,2026-03-01,C0072,Summit Tent,Outdoor,East,web,1,249,5,236.55
+615,2026-05-06,C0094,Pulse Earbuds,Electronics,South,web,1,79,0,79.0
+616,2026-05-13,C0147,Aurora Lamp,Home,West,web,1,49,0,49.0
+617,2025-07-28,C0206,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+618,2025-08-27,C0192,Trail Backpack,Outdoor,West,partner,1,99,5,94.05
+619,2026-01-04,C0104,Pulse Earbuds,Electronics,East,store,5,79,5,375.25
+620,2026-06-14,C0091,Forge Knife Set,Kitchen,East,store,1,139,5,132.05
+621,2025-01-27,C0001,Vertex Monitor,Electronics,South,partner,1,329,0,329.0
+622,2025-12-29,C0198,Trail Backpack,Outdoor,South,store,2,99,15,168.3
+623,2025-04-10,C0268,Titan Dumbbells,Fitness,South,partner,1,119,0,119.0
+624,2026-03-07,C0042,Nimbus Chair,Home,West,store,2,189,0,378.0
+625,2025-12-11,C0138,Pulse Earbuds,Electronics,West,web,1,79,15,67.15
+626,2026-05-18,C0037,Aurora Lamp,Home,East,web,1,49,0,49.0
+627,2025-09-27,C0263,Summit Tent,Outdoor,North,store,5,249,0,1245.0
+628,2026-01-22,C0268,Brew Kettle,Kitchen,South,store,5,59,0,295.0
+629,2026-05-11,C0131,Brew Kettle,Kitchen,South,store,1,59,15,50.15
+630,2025-11-18,C0030,Brew Kettle,Kitchen,West,web,1,59,15,50.15
+631,2026-03-28,C0093,Aurora Lamp,Home,West,store,2,49,0,98.0
+632,2025-06-18,C0210,Trail Backpack,Outdoor,West,web,1,99,10,89.1
+633,2025-06-18,C0254,Forge Knife Set,Kitchen,East,web,1,139,5,132.05
+634,2026-01-13,C0262,Loop Yoga Mat,Fitness,South,store,1,35,0,35.0
+635,2026-01-16,C0296,Trail Backpack,Outdoor,East,store,2,99,0,198.0
+636,2025-10-06,C0010,Nimbus Chair,Home,South,store,2,189,15,321.3
+637,2026-06-08,C0105,Loop Yoga Mat,Fitness,South,partner,5,35,10,157.5
+638,2026-03-14,C0131,Vertex Monitor,Electronics,South,web,5,329,0,1645.0
+639,2026-04-20,C0102,Loop Yoga Mat,Fitness,North,partner,2,35,0,70.0
+640,2026-02-22,C0089,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+641,2025-05-14,C0010,Nimbus Chair,Home,North,web,3,189,0,567.0
+642,2025-03-19,C0038,Pulse Earbuds,Electronics,East,store,2,79,0,158.0
+643,2026-03-04,C0043,Loop Yoga Mat,Fitness,East,web,1,35,0,35.0
+644,2025-03-01,C0169,Aurora Lamp,Home,East,partner,1,49,0,49.0
+645,2025-05-23,C0079,Titan Dumbbells,Fitness,West,store,2,119,0,238.0
+646,2025-01-21,C0049,Pulse Earbuds,Electronics,North,partner,1,79,5,75.05
+647,2026-03-25,C0048,Trail Backpack,Outdoor,West,partner,2,99,0,198.0
+648,2025-01-17,C0235,Titan Dumbbells,Fitness,South,store,1,119,0,119.0
+649,2025-11-17,C0118,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+650,2025-06-05,C0099,Forge Knife Set,Kitchen,South,web,2,139,10,250.2
+651,2026-06-22,C0032,Loop Yoga Mat,Fitness,South,store,1,35,0,35.0
+652,2026-04-09,C0204,Forge Knife Set,Kitchen,East,partner,3,139,0,417.0
+653,2025-02-23,C0026,Brew Kettle,Kitchen,East,partner,1,59,0,59.0
+654,2025-05-15,C0016,Brew Kettle,Kitchen,South,store,1,59,5,56.05
+655,2025-11-10,C0244,Summit Tent,Outdoor,East,web,1,249,15,211.65
+656,2025-03-06,C0130,Vertex Monitor,Electronics,South,store,2,329,0,658.0
+657,2025-10-26,C0191,Forge Knife Set,Kitchen,West,partner,5,139,15,590.75
+658,2026-01-03,C0143,Aurora Lamp,Home,South,web,2,49,0,98.0
+659,2026-05-31,C0018,Summit Tent,Outdoor,East,partner,1,249,5,236.55
+660,2026-03-06,C0044,Loop Yoga Mat,Fitness,South,store,2,35,10,63.0
+661,2026-02-18,C0070,Forge Knife Set,Kitchen,North,partner,1,139,0,139.0
+662,2025-05-08,C0087,Summit Tent,Outdoor,South,web,5,249,5,1182.75
+663,2026-03-31,C0125,Forge Knife Set,Kitchen,West,partner,1,139,0,139.0
+664,2025-07-03,C0243,Forge Knife Set,Kitchen,South,web,3,139,5,396.15
+665,2025-07-19,C0067,Trail Backpack,Outdoor,South,store,3,99,0,297.0
+666,2026-04-03,C0131,Pulse Earbuds,Electronics,West,partner,1,79,0,79.0
+667,2026-04-22,C0175,Pulse Earbuds,Electronics,South,partner,1,79,15,67.15
+668,2026-04-07,C0006,Loop Yoga Mat,Fitness,East,partner,2,35,0,70.0
+669,2025-02-09,C0137,Titan Dumbbells,Fitness,East,store,1,119,0,119.0
+670,2025-08-23,C0007,Vertex Monitor,Electronics,West,partner,1,329,0,329.0
+671,2025-12-09,C0027,Loop Yoga Mat,Fitness,South,web,5,35,15,148.75
+672,2025-06-29,C0158,Brew Kettle,Kitchen,South,web,2,59,5,112.1
+673,2025-08-14,C0164,Loop Yoga Mat,Fitness,South,partner,1,35,0,35.0
+674,2025-11-28,C0234,Loop Yoga Mat,Fitness,East,store,5,35,10,157.5
+675,2026-03-20,C0175,Loop Yoga Mat,Fitness,East,web,1,35,15,29.75
+676,2025-04-08,C0117,Loop Yoga Mat,Fitness,East,web,5,35,0,175.0
+677,2025-11-06,C0206,Aurora Lamp,Home,East,store,5,49,5,232.75
+678,2025-07-31,C0164,Brew Kettle,Kitchen,East,partner,2,59,5,112.1
+679,2026-02-28,C0266,Pulse Earbuds,Electronics,North,store,1,79,10,71.1
+680,2025-01-16,C0107,Titan Dumbbells,Fitness,East,partner,1,119,0,119.0
+681,2026-06-07,C0292,Brew Kettle,Kitchen,North,store,1,59,15,50.15
+682,2025-10-04,C0095,Forge Knife Set,Kitchen,East,partner,2,139,0,278.0
+683,2025-08-25,C0030,Pulse Earbuds,Electronics,South,store,3,79,10,213.3
+684,2026-06-21,C0040,Trail Backpack,Outdoor,West,web,2,99,15,168.3
+685,2026-06-21,C0280,Summit Tent,Outdoor,North,partner,1,249,5,236.55
+686,2025-12-28,C0085,Vertex Monitor,Electronics,South,web,5,329,10,1480.5
+687,2025-12-02,C0186,Forge Knife Set,Kitchen,North,web,5,139,10,625.5
+688,2025-01-27,C0111,Trail Backpack,Outdoor,West,web,3,99,15,252.45
+689,2025-04-25,C0218,Brew Kettle,Kitchen,South,partner,5,59,0,295.0
+690,2025-12-27,C0240,Pulse Earbuds,Electronics,North,web,1,79,10,71.1
+691,2026-03-29,C0122,Loop Yoga Mat,Fitness,East,web,1,35,15,29.75
+692,2025-05-15,C0300,Brew Kettle,Kitchen,North,partner,5,59,0,295.0
+693,2025-12-23,C0262,Pulse Earbuds,Electronics,North,store,5,79,5,375.25
+694,2025-10-09,C0213,Aurora Lamp,Home,South,store,1,49,10,44.1
+695,2026-01-13,C0126,Titan Dumbbells,Fitness,South,web,1,119,5,113.05
+696,2025-09-22,C0083,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+697,2025-05-25,C0095,Pulse Earbuds,Electronics,West,store,2,79,0,158.0
+698,2026-03-14,C0242,Brew Kettle,Kitchen,South,store,2,59,0,118.0
+699,2025-04-25,C0197,Nimbus Chair,Home,North,store,1,189,0,189.0
+700,2026-02-26,C0201,Pulse Earbuds,Electronics,South,store,3,79,15,201.45
+701,2025-12-12,C0245,Aurora Lamp,Home,East,partner,5,49,15,208.25
+702,2026-05-21,C0153,Vertex Monitor,Electronics,South,partner,2,329,10,592.2
+703,2026-03-04,C0188,Aurora Lamp,Home,West,store,3,49,0,147.0
+704,2026-01-31,C0283,Pulse Earbuds,Electronics,West,partner,1,79,10,71.1
+705,2025-04-06,C0166,Loop Yoga Mat,Fitness,West,store,5,35,0,175.0
+706,2025-08-29,C0273,Loop Yoga Mat,Fitness,East,partner,1,35,10,31.5
+707,2025-04-07,C0290,Pulse Earbuds,Electronics,East,web,2,79,10,142.2
+708,2025-09-11,C0007,Pulse Earbuds,Electronics,East,store,3,79,10,213.3
+709,2025-11-04,C0039,Titan Dumbbells,Fitness,South,web,2,119,0,238.0
+710,2026-03-31,C0030,Nimbus Chair,Home,West,store,1,189,0,189.0
+711,2026-06-12,C0283,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+712,2025-05-25,C0198,Forge Knife Set,Kitchen,West,web,5,139,15,590.75
+713,2026-02-15,C0020,Nimbus Chair,Home,North,web,1,189,0,189.0
+714,2025-02-10,C0087,Pulse Earbuds,Electronics,North,store,3,79,15,201.45
+715,2025-05-18,C0185,Brew Kettle,Kitchen,North,store,3,59,0,177.0
+716,2025-09-22,C0090,Trail Backpack,Outdoor,South,web,2,99,0,198.0
+717,2026-03-25,C0229,Brew Kettle,Kitchen,North,store,3,59,0,177.0
+718,2026-05-05,C0173,Aurora Lamp,Home,West,partner,2,49,0,98.0
+719,2026-04-24,C0073,Loop Yoga Mat,Fitness,West,web,2,35,10,63.0
+720,2025-05-03,C0264,Brew Kettle,Kitchen,North,store,2,59,15,100.3
+721,2026-01-27,C0210,Brew Kettle,Kitchen,East,store,3,59,15,150.45
+722,2026-05-25,C0098,Brew Kettle,Kitchen,East,web,1,59,5,56.05
+723,2026-03-23,C0168,Loop Yoga Mat,Fitness,East,partner,2,35,15,59.5
+724,2025-07-05,C0280,Brew Kettle,Kitchen,West,store,1,59,10,53.1
+725,2026-06-20,C0077,Trail Backpack,Outdoor,West,web,5,99,0,495.0
+726,2026-05-15,C0003,Brew Kettle,Kitchen,North,partner,2,59,15,100.3
+727,2025-03-29,C0223,Pulse Earbuds,Electronics,West,partner,1,79,10,71.1
+728,2025-03-14,C0019,Trail Backpack,Outdoor,West,partner,1,99,0,99.0
+729,2025-03-02,C0106,Pulse Earbuds,Electronics,West,partner,5,79,0,395.0
+730,2026-01-17,C0206,Pulse Earbuds,Electronics,West,web,3,79,0,237.0
+731,2026-04-13,C0277,Loop Yoga Mat,Fitness,South,store,1,35,0,35.0
+732,2025-09-05,C0018,Pulse Earbuds,Electronics,West,store,5,79,10,355.5
+733,2025-03-14,C0238,Loop Yoga Mat,Fitness,West,partner,1,35,0,35.0
+734,2025-07-21,C0070,Loop Yoga Mat,Fitness,North,partner,2,35,0,70.0
+735,2025-11-07,C0243,Pulse Earbuds,Electronics,South,store,1,79,0,79.0
+736,2025-02-27,C0033,Nimbus Chair,Home,West,partner,2,189,0,378.0
+737,2026-06-11,C0161,Pulse Earbuds,Electronics,North,partner,2,79,5,150.1
+738,2026-01-19,C0133,Trail Backpack,Outdoor,South,partner,2,99,0,198.0
+739,2025-12-03,C0241,Vertex Monitor,Electronics,West,store,1,329,0,329.0
+740,2025-12-08,C0169,Aurora Lamp,Home,South,store,2,49,10,88.2
+741,2025-08-31,C0299,Titan Dumbbells,Fitness,East,store,1,119,5,113.05
+742,2025-11-30,C0105,Pulse Earbuds,Electronics,West,web,1,79,0,79.0
+743,2025-10-15,C0186,Vertex Monitor,Electronics,West,partner,5,329,15,1398.25
+744,2026-06-06,C0097,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+745,2026-02-15,C0216,Forge Knife Set,Kitchen,North,web,2,139,0,278.0
+746,2025-06-02,C0057,Trail Backpack,Outdoor,East,web,1,99,0,99.0
+747,2026-01-31,C0026,Forge Knife Set,Kitchen,West,web,1,139,0,139.0
+748,2025-08-02,C0213,Brew Kettle,Kitchen,East,partner,1,59,10,53.1
+749,2026-04-08,C0115,Aurora Lamp,Home,North,web,1,49,0,49.0
+750,2025-07-08,C0197,Loop Yoga Mat,Fitness,West,partner,2,35,0,70.0
+751,2025-12-24,C0139,Brew Kettle,Kitchen,South,store,2,59,0,118.0
+752,2026-01-24,C0273,Titan Dumbbells,Fitness,West,web,1,119,5,113.05
+753,2025-08-30,C0279,Nimbus Chair,Home,South,web,1,189,0,189.0
+754,2025-04-28,C0082,Brew Kettle,Kitchen,East,partner,5,59,0,295.0
+755,2025-03-24,C0008,Trail Backpack,Outdoor,North,web,2,99,10,178.2
+756,2025-06-20,C0124,Forge Knife Set,Kitchen,North,store,1,139,0,139.0
+757,2025-10-02,C0026,Trail Backpack,Outdoor,West,partner,1,99,0,99.0
+758,2025-02-09,C0134,Loop Yoga Mat,Fitness,North,store,1,35,0,35.0
+759,2025-08-16,C0038,Aurora Lamp,Home,West,web,5,49,0,245.0
+760,2025-05-13,C0263,Trail Backpack,Outdoor,West,web,1,99,15,84.15
+761,2025-11-06,C0081,Titan Dumbbells,Fitness,North,store,3,119,15,303.45
+762,2025-08-14,C0098,Aurora Lamp,Home,West,web,3,49,15,124.95
+763,2025-06-04,C0123,Pulse Earbuds,Electronics,West,web,2,79,0,158.0
+764,2026-01-24,C0275,Aurora Lamp,Home,East,store,2,49,0,98.0
+765,2025-07-07,C0206,Brew Kettle,Kitchen,West,partner,1,59,0,59.0
+766,2025-03-05,C0099,Aurora Lamp,Home,East,partner,1,49,10,44.1
+767,2025-11-08,C0254,Trail Backpack,Outdoor,West,store,1,99,0,99.0
+768,2025-12-20,C0035,Loop Yoga Mat,Fitness,West,store,1,35,0,35.0
+769,2026-02-04,C0024,Brew Kettle,Kitchen,North,web,2,59,15,100.3
+770,2025-06-22,C0179,Pulse Earbuds,Electronics,South,partner,3,79,0,237.0
+771,2025-09-20,C0225,Loop Yoga Mat,Fitness,South,web,1,35,5,33.25
+772,2025-11-28,C0080,Trail Backpack,Outdoor,East,partner,1,99,15,84.15
+773,2026-04-01,C0079,Aurora Lamp,Home,North,store,1,49,0,49.0
+774,2025-07-29,C0287,Brew Kettle,Kitchen,West,partner,5,59,15,250.75
+775,2026-04-15,C0105,Summit Tent,Outdoor,West,partner,1,249,10,224.1
+776,2025-09-03,C0143,Trail Backpack,Outdoor,South,partner,2,99,0,198.0
+777,2025-10-02,C0151,Brew Kettle,Kitchen,East,web,1,59,10,53.1
+778,2026-02-12,C0128,Loop Yoga Mat,Fitness,West,partner,2,35,5,66.5
+779,2025-09-18,C0248,Forge Knife Set,Kitchen,East,partner,5,139,0,695.0
+780,2026-02-24,C0233,Loop Yoga Mat,Fitness,East,web,3,35,0,105.0
+781,2026-02-26,C0131,Pulse Earbuds,Electronics,East,partner,1,79,5,75.05
+782,2025-11-30,C0224,Pulse Earbuds,Electronics,East,web,2,79,0,158.0
+783,2025-10-24,C0096,Forge Knife Set,Kitchen,West,web,3,139,15,354.45
+784,2025-07-09,C0174,Trail Backpack,Outdoor,West,store,3,99,0,297.0
+785,2025-05-02,C0081,Nimbus Chair,Home,East,store,3,189,0,567.0
+786,2026-01-30,C0028,Pulse Earbuds,Electronics,West,store,1,79,0,79.0
+787,2026-03-16,C0140,Vertex Monitor,Electronics,West,partner,1,329,0,329.0
+788,2025-12-23,C0200,Pulse Earbuds,Electronics,South,store,1,79,5,75.05
+789,2026-02-27,C0065,Aurora Lamp,Home,North,partner,1,49,0,49.0
+790,2025-06-03,C0119,Brew Kettle,Kitchen,East,web,2,59,10,106.2
+791,2026-04-22,C0295,Loop Yoga Mat,Fitness,East,web,1,35,5,33.25
+792,2025-08-08,C0262,Brew Kettle,Kitchen,West,web,2,59,0,118.0
+793,2025-10-08,C0117,Titan Dumbbells,Fitness,North,store,1,119,0,119.0
+794,2025-06-22,C0124,Loop Yoga Mat,Fitness,West,partner,1,35,0,35.0
+795,2026-03-27,C0246,Loop Yoga Mat,Fitness,West,web,1,35,5,33.25
+796,2025-09-07,C0241,Pulse Earbuds,Electronics,West,web,2,79,0,158.0
+797,2025-03-30,C0226,Pulse Earbuds,Electronics,North,store,5,79,15,335.75
+798,2025-06-06,C0095,Aurora Lamp,Home,East,web,1,49,0,49.0
+799,2025-11-11,C0265,Pulse Earbuds,Electronics,East,partner,3,79,0,237.0
+800,2025-11-12,C0278,Trail Backpack,Outdoor,South,web,1,99,0,99.0
+801,2025-08-26,C0289,Pulse Earbuds,Electronics,East,store,2,79,10,142.2
+802,2026-01-03,C0188,Forge Knife Set,Kitchen,East,web,5,139,0,695.0
+803,2026-04-17,C0185,Pulse Earbuds,Electronics,South,store,2,79,0,
+804,2026-06-24,C0185,Pulse Earbuds,Electronics,West,store,2,79,5,150.1
+805,2026-03-24,C0030,Trail Backpack,Outdoor,North,store,5,99,0,495.0
+806,2026-06-07,C0255,Brew Kettle,Kitchen,West,web,3,59,0,177.0
+807,2025-03-04,C0257,Nimbus Chair,Home,South,partner,1,189,0,189.0
+808,2025-05-12,C0282,Trail Backpack,Outdoor,South,partner,1,99,0,99.0
+809,2026-01-02,C0103,Nimbus Chair,Home,South,partner,1,189,0,189.0
+810,2026-04-11,C0253,Brew Kettle,Kitchen,West,partner,5,59,0,295.0
+811,2026-04-07,C0017,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+812,2025-03-06,C0009,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+813,2026-04-09,C0104,Trail Backpack,Outdoor,East,partner,1,99,0,99.0
+814,2025-01-30,C0012,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+815,2025-07-22,C0105,Pulse Earbuds,Electronics,West,partner,3,79,0,237.0
+816,2025-07-15,C0147,Titan Dumbbells,Fitness,South,store,5,119,0,595.0
+817,2026-05-23,C0074,Summit Tent,Outdoor,West,partner,2,249,10,448.2
+818,2025-09-05,C0113,Loop Yoga Mat,Fitness,East,store,5,35,0,175.0
+819,2026-04-11,C0203,Pulse Earbuds,Electronics,North,web,3,79,0,237.0
+820,2025-10-07,C0179,Loop Yoga Mat,Fitness,West,web,2,35,10,63.0
+821,2026-03-13,C0206,Loop Yoga Mat,Fitness,South,web,3,35,0,105.0
+822,2026-02-25,C0269,Brew Kettle,Kitchen,South,store,2,59,0,118.0
+823,2025-10-24,C0128,Trail Backpack,Outdoor,East,partner,5,99,0,495.0
+824,2025-03-23,C0247,Pulse Earbuds,Electronics,East,store,3,79,0,237.0
+825,2026-04-16,C0155,Pulse Earbuds,Electronics,East,web,5,79,0,395.0
+826,2025-12-26,C0088,Brew Kettle,Kitchen,East,partner,1,59,15,50.15
+827,2026-03-22,C0224,Brew Kettle,Kitchen,West,web,5,59,5,280.25
+828,2025-05-03,C0114,Nimbus Chair,Home,West,store,1,189,0,189.0
+829,2025-03-27,C0083,Forge Knife Set,Kitchen,West,partner,5,139,0,695.0
+830,2025-10-07,C0009,Trail Backpack,Outdoor,South,store,5,99,0,495.0
+831,2026-03-13,C0112,Brew Kettle,Kitchen,East,partner,2,59,5,112.1
+832,2025-06-15,C0191,Brew Kettle,Kitchen,North,store,3,59,0,177.0
+833,2026-06-16,C0130,Nimbus Chair,Home,North,web,1,189,0,189.0
+834,2026-04-29,C0044,Aurora Lamp,Home,East,store,1,49,0,49.0
+835,2025-07-05,C0237,Nimbus Chair,Home,South,store,1,189,0,189.0
+836,2026-05-02,C0005,Trail Backpack,Outdoor,North,store,5,99,0,495.0
+837,2025-10-14,C0108,Trail Backpack,Outdoor,East,web,1,99,0,99.0
+838,2025-09-11,C0115,Brew Kettle,Kitchen,East,store,2,59,5,112.1
+839,2026-06-02,C0224,Trail Backpack,Outdoor,West,store,2,99,15,168.3
+840,2025-09-20,C0026,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+841,2026-05-13,C0041,Titan Dumbbells,Fitness,East,store,2,119,0,238.0
+842,2025-01-18,C0099,Brew Kettle,Kitchen,West,web,3,59,0,177.0
+843,2025-10-04,C0202,Brew Kettle,Kitchen,North,partner,1,59,0,59.0
+844,2025-09-08,C0119,Forge Knife Set,Kitchen,East,web,2,139,10,250.2
+845,2026-01-28,C0157,Pulse Earbuds,Electronics,South,web,5,79,0,395.0
+846,2026-01-14,C0189,Titan Dumbbells,Fitness,South,partner,1,119,0,119.0
+847,2025-11-07,C0268,Trail Backpack,Outdoor,West,store,1,99,0,99.0
+848,2025-10-09,C0103,Aurora Lamp,Home,East,store,1,49,5,46.55
+849,2026-04-12,C0143,Vertex Monitor,Electronics,North,partner,5,329,10,1480.5
+850,2025-10-12,C0226,Loop Yoga Mat,Fitness,West,partner,1,35,0,35.0
+851,2025-05-01,C0140,Summit Tent,Outdoor,South,web,2,249,0,498.0
+852,2025-09-25,C0156,Aurora Lamp,Home,West,partner,2,49,15,83.3
+853,2025-03-29,C0260,Loop Yoga Mat,Fitness,North,store,2,35,0,70.0
+854,2026-03-28,C0258,Aurora Lamp,Home,South,partner,1,49,0,49.0
+855,2025-03-21,C0071,Pulse Earbuds,Electronics,East,store,2,79,0,158.0
+856,2025-12-19,C0050,Pulse Earbuds,Electronics,West,store,1,79,10,71.1
+857,2026-04-26,C0111,Aurora Lamp,Home,East,partner,1,49,10,44.1
+858,2025-05-21,C0300,Trail Backpack,Outdoor,East,store,1,99,5,94.05
+859,2026-01-13,C0254,Trail Backpack,Outdoor,East,web,1,99,10,89.1
+860,2025-08-04,C0158,Loop Yoga Mat,Fitness,East,web,1,35,15,29.75
+861,2026-05-09,C0223,Pulse Earbuds,Electronics,West,store,2,79,0,158.0
+862,2026-04-23,C0066,Loop Yoga Mat,Fitness,North,web,1,35,10,31.5
+863,2026-02-12,C0100,Pulse Earbuds,Electronics,West,store,3,79,10,213.3
+864,2026-01-18,C0095,Pulse Earbuds,Electronics,West,partner,5,79,0,395.0
+865,2026-02-05,C0201,Aurora Lamp,Home,West,web,1,49,5,46.55
+866,2026-02-09,C0207,Forge Knife Set,Kitchen,West,partner,3,139,0,417.0
+867,2025-09-12,C0285,Nimbus Chair,Home,West,web,2,189,0,378.0
+868,2025-06-22,C0089,Forge Knife Set,Kitchen,East,store,3,139,10,375.3
+869,2025-10-17,C0095,Pulse Earbuds,Electronics,South,web,2,79,0,158.0
+870,2026-05-08,C0053,Summit Tent,Outdoor,South,web,2,249,0,498.0
+871,2025-06-12,C0155,Loop Yoga Mat,Fitness,North,store,1,35,0,35.0
+872,2026-05-20,C0239,Titan Dumbbells,Fitness,North,store,1,119,5,113.05
+873,2025-09-04,C0130,Aurora Lamp,Home,South,web,1,49,5,46.55
+874,2025-10-19,C0047,Trail Backpack,Outdoor,South,store,3,99,10,267.3
+875,2026-06-12,C0011,Vertex Monitor,Electronics,West,partner,1,329,0,329.0
+876,2025-09-16,C0178,Loop Yoga Mat,Fitness,West,web,2,35,0,70.0
+877,2026-02-14,C0172,Brew Kettle,Kitchen,West,web,5,59,15,250.75
+878,2025-12-09,C0260,Pulse Earbuds,Electronics,North,web,2,79,0,158.0
+879,2026-02-13,C0141,Titan Dumbbells,Fitness,West,partner,3,119,0,357.0
+880,2025-10-19,C0090,Forge Knife Set,Kitchen,North,web,1,139,0,139.0
+881,2026-01-31,C0108,Forge Knife Set,Kitchen,West,partner,1,139,0,139.0
+882,2026-06-03,C0024,Titan Dumbbells,Fitness,South,web,2,119,5,226.1
+883,2025-03-10,C0211,Trail Backpack,Outdoor,North,store,1,99,5,94.05
+884,2025-04-21,C0174,Aurora Lamp,Home,East,partner,2,49,0,98.0
+885,2025-09-14,C0166,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+886,2025-10-03,C0049,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+887,2025-11-02,C0300,Trail Backpack,Outdoor,West,partner,1,99,0,99.0
+888,2026-06-07,C0034,Brew Kettle,Kitchen,West,partner,2,59,10,106.2
+889,2025-03-30,C0255,Aurora Lamp,Home,West,partner,3,49,0,147.0
+890,2025-04-07,C0024,Brew Kettle,Kitchen,West,partner,5,59,0,295.0
+891,2026-01-27,C0180,Aurora Lamp,Home,West,store,2,49,0,98.0
+892,2026-01-08,C0158,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+893,2026-05-06,C0221,Loop Yoga Mat,Fitness,West,partner,3,35,0,105.0
+894,2025-12-16,C0156,Nimbus Chair,Home,North,partner,3,189,5,538.65
+895,2026-01-26,C0031,Nimbus Chair,Home,South,web,3,189,15,481.95
+896,2025-05-08,C0116,Pulse Earbuds,Electronics,East,partner,3,79,5,225.15
+897,2026-06-05,C0225,Loop Yoga Mat,Fitness,West,store,1,35,0,35.0
+898,2025-10-12,C0190,Loop Yoga Mat,Fitness,North,partner,5,35,0,175.0
+899,2025-11-03,C0204,Titan Dumbbells,Fitness,North,store,1,119,0,119.0
+900,2025-05-03,C0021,Nimbus Chair,Home,North,store,1,189,10,170.1
+901,2025-04-25,C0111,Loop Yoga Mat,Fitness,South,store,5,35,0,175.0
+902,2025-01-03,C0050,Loop Yoga Mat,Fitness,South,store,5,35,0,175.0
+903,2026-04-12,C0095,Titan Dumbbells,Fitness,East,partner,1,119,0,119.0
+904,2026-02-03,C0142,Loop Yoga Mat,Fitness,East,partner,2,35,5,66.5
+905,2025-04-20,C0011,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+906,2026-03-13,C0145,Pulse Earbuds,Electronics,West,partner,1,79,15,67.15
+907,2025-04-01,C0107,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+908,2026-01-26,C0027,Aurora Lamp,Home,West,partner,1,49,5,46.55
+909,2025-02-03,C0224,Pulse Earbuds,Electronics,East,store,1,79,10,71.1
+910,2026-02-10,C0150,Aurora Lamp,Home,West,store,2,49,0,98.0
+911,2025-04-08,C0097,Trail Backpack,Outdoor,West,store,2,99,0,198.0
+912,2026-05-21,C0291,Titan Dumbbells,Fitness,West,store,2,119,0,238.0
+913,2025-07-03,C0081,Aurora Lamp,Home,West,web,2,49,15,83.3
+914,2025-10-28,C0193,Vertex Monitor,Electronics,North,partner,5,329,0,1645.0
+915,2026-03-01,C0158,Loop Yoga Mat,Fitness,West,partner,3,35,0,105.0
+916,2025-08-08,C0245,Loop Yoga Mat,Fitness,South,web,1,35,10,31.5
+917,2026-01-13,C0013,Loop Yoga Mat,Fitness,East,partner,2,35,15,59.5
+918,2025-09-03,C0011,Loop Yoga Mat,Fitness,West,store,1,35,5,33.25
+919,2026-02-09,C0114,Brew Kettle,Kitchen,East,store,1,59,0,59.0
+920,2025-09-02,C0222,Brew Kettle,Kitchen,East,store,3,59,5,168.15
+921,2025-03-05,C0229,Summit Tent,Outdoor,West,partner,2,249,15,423.3
+922,2025-09-26,C0260,Nimbus Chair,Home,West,store,3,189,10,510.3
+923,2025-08-03,C0256,Trail Backpack,Outdoor,South,partner,2,99,0,198.0
+924,2025-05-05,C0111,Pulse Earbuds,Electronics,South,store,5,79,0,395.0
+925,2025-10-08,C0022,Summit Tent,Outdoor,North,web,2,249,0,498.0
+926,2026-02-05,C0155,Vertex Monitor,Electronics,East,web,2,329,15,559.3
+927,2025-08-08,C0041,Trail Backpack,Outdoor,West,store,1,99,0,99.0
+928,2026-02-27,C0229,Brew Kettle,Kitchen,South,store,1,59,0,59.0
+929,2025-05-18,C0178,Loop Yoga Mat,Fitness,South,partner,2,35,15,59.5
+930,2026-04-03,C0156,Forge Knife Set,Kitchen,East,partner,1,139,0,139.0
+931,2025-06-20,C0197,Loop Yoga Mat,Fitness,South,partner,2,35,0,70.0
+932,2025-01-17,C0191,Trail Backpack,Outdoor,East,store,5,99,5,470.25
+933,2026-02-12,C0180,Pulse Earbuds,Electronics,West,partner,3,79,15,201.45
+934,2026-02-09,C0295,Loop Yoga Mat,Fitness,North,partner,1,35,0,35.0
+935,2025-09-11,C0107,Loop Yoga Mat,Fitness,West,partner,1,35,5,33.25
+936,2026-03-08,C0112,Trail Backpack,Outdoor,East,store,1,99,5,94.05
+937,2026-02-08,C0227,Pulse Earbuds,Electronics,South,store,3,79,0,237.0
+938,2025-12-24,C0204,Forge Knife Set,Kitchen,East,web,1,139,0,139.0
+939,2025-08-21,C0089,Forge Knife Set,Kitchen,West,partner,2,139,0,278.0
+940,2025-09-03,C0129,Brew Kettle,Kitchen,West,store,1,59,0,59.0
+941,2025-10-15,C0288,Loop Yoga Mat,Fitness,East,store,5,35,15,148.75
+942,2026-06-12,C0118,Forge Knife Set,Kitchen,East,web,1,139,0,139.0
+943,2025-07-05,C0159,Pulse Earbuds,Electronics,East,web,3,79,15,201.45
+944,2026-06-04,C0189,Nimbus Chair,Home,East,web,1,189,0,189.0
+945,2025-10-01,C0157,Aurora Lamp,Home,East,partner,2,49,5,93.1
+946,2026-04-07,C0135,Aurora Lamp,Home,South,store,2,49,10,88.2
+947,2026-05-17,C0051,Pulse Earbuds,Electronics,South,web,1,79,10,71.1
+948,2025-02-05,C0275,Brew Kettle,Kitchen,West,store,1,59,0,59.0
+949,2025-09-03,C0119,Aurora Lamp,Home,West,partner,3,49,15,124.95
+950,2025-05-22,C0141,Forge Knife Set,Kitchen,East,web,1,139,0,139.0
+951,2025-11-13,C0050,Loop Yoga Mat,Fitness,South,store,5,35,15,148.75
+952,2025-06-09,C0246,Loop Yoga Mat,Fitness,East,store,2,35,0,70.0
+953,2026-03-16,C0103,Aurora Lamp,Home,South,partner,2,49,5,93.1
+954,2026-06-12,C0115,Brew Kettle,Kitchen,North,store,2,59,15,100.3
+955,2025-03-29,C0163,Loop Yoga Mat,Fitness,East,partner,3,35,15,89.25
+956,2025-03-30,C0197,Summit Tent,Outdoor,West,store,1,249,15,211.65
+957,2025-08-18,C0097,Loop Yoga Mat,Fitness,West,web,5,35,0,175.0
+958,2026-04-24,C0033,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+959,2026-02-23,C0250,Brew Kettle,Kitchen,West,partner,1,59,10,53.1
+960,2025-06-29,C0139,Loop Yoga Mat,Fitness,North,store,2,35,10,63.0
+961,2026-06-22,C0076,Forge Knife Set,Kitchen,North,partner,1,139,0,139.0
+962,2025-12-17,C0002,Aurora Lamp,Home,West,store,2,49,0,98.0
+963,2025-11-10,C0022,Titan Dumbbells,Fitness,West,partner,2,119,10,214.2
+964,2026-03-15,C0207,Nimbus Chair,Home,South,partner,5,189,10,850.5
+965,2025-09-27,C0236,Pulse Earbuds,Electronics,East,partner,1,79,0,79.0
+966,2026-04-20,C0111,Summit Tent,Outdoor,South,web,1,249,10,224.1
+967,2025-06-17,C0093,Pulse Earbuds,Electronics,North,web,1,79,5,75.05
+968,2025-10-30,C0109,Loop Yoga Mat,Fitness,West,store,3,35,15,89.25
+969,2026-01-10,C0238,Nimbus Chair,Home,West,web,3,189,10,510.3
+970,2025-12-04,C0108,Pulse Earbuds,Electronics,West,web,1,79,0,79.0
+971,2026-03-04,C0297,Pulse Earbuds,Electronics,South,partner,2,79,10,142.2
+972,2026-01-21,C0216,Brew Kettle,Kitchen,North,web,2,59,10,106.2
+973,2026-01-08,C0266,Aurora Lamp,Home,East,partner,1,49,10,44.1
+974,2025-10-01,C0226,Vertex Monitor,Electronics,North,store,2,329,0,658.0
+975,2025-09-14,C0188,Trail Backpack,Outdoor,North,web,2,99,0,198.0
+976,2025-04-30,C0239,Aurora Lamp,Home,East,web,3,49,0,147.0
+977,2025-06-19,C0241,Brew Kettle,Kitchen,West,store,2,59,0,118.0
+978,2025-05-21,C0059,Loop Yoga Mat,Fitness,East,partner,5,35,0,175.0
+979,2026-02-13,C0218,Loop Yoga Mat,Fitness,South,web,1,35,0,35.0
+980,2025-10-10,C0067,Brew Kettle,Kitchen,North,partner,5,59,10,265.5
+981,2025-09-28,C0063,Pulse Earbuds,Electronics,South,store,3,79,15,201.45
+982,2025-12-12,C0094,Pulse Earbuds,Electronics,East,partner,2,79,10,142.2
+983,2025-08-10,C0211,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+984,2026-04-17,C0106,Trail Backpack,Outdoor,South,store,1,99,10,89.1
+985,2025-04-28,C0300,Titan Dumbbells,Fitness,East,store,1,119,0,119.0
+986,2025-05-03,C0085,Pulse Earbuds,Electronics,South,store,2,79,0,158.0
+987,2025-06-07,C0207,Pulse Earbuds,Electronics,West,store,2,79,0,158.0
+988,2025-08-30,C0129,Aurora Lamp,Home,South,partner,5,49,15,208.25
+989,2025-06-03,C0066,Titan Dumbbells,Fitness,East,partner,5,119,0,595.0
+990,2025-11-13,C0173,Brew Kettle,Kitchen,East,web,1,59,0,59.0
+991,2026-03-04,C0109,Nimbus Chair,Home,North,store,1,189,0,189.0
+992,2025-08-09,C0178,Pulse Earbuds,Electronics,North,partner,1,79,0,79.0
+993,2025-12-09,C0012,Brew Kettle,Kitchen,South,partner,2,59,0,118.0
+994,2025-11-21,C0099,Loop Yoga Mat,Fitness,South,store,2,35,5,66.5
+995,2026-03-07,C0132,Pulse Earbuds,Electronics,North,store,1,79,0,79.0
+996,2025-08-25,C0052,Loop Yoga Mat,Fitness,South,partner,1,35,15,29.75
+997,2026-02-02,C0045,Pulse Earbuds,Electronics,South,web,1,79,10,71.1
+998,2025-09-07,C0174,Brew Kettle,Kitchen,East,web,3,59,5,168.15
+999,2026-04-27,C0152,Titan Dumbbells,Fitness,South,partner,2,119,10,214.2
+1000,2025-04-03,C0264,Nimbus Chair,Home,West,web,1,189,0,189.0
+1001,2026-02-23,C0022,Loop Yoga Mat,Fitness,East,web,2,35,0,70.0
+1002,2025-08-04,C0095,Nimbus Chair,Home,South,store,2,189,0,378.0
+1003,2026-04-20,C0081,Brew Kettle,Kitchen,West,partner,1,59,10,53.1
+1004,2026-01-22,C0085,Pulse Earbuds,Electronics,West,store,1,79,5,75.05
+1005,2025-07-27,C0123,Nimbus Chair,Home,West,store,1,189,10,170.1
+1006,2025-03-19,C0049,Pulse Earbuds,Electronics,North,partner,2,79,15,134.3
+1007,2025-03-25,C0010,Loop Yoga Mat,Fitness,North,web,1,35,5,33.25
+1008,2026-05-28,C0029,Trail Backpack,Outdoor,South,partner,1,99,0,99.0
+1009,2026-02-07,C0079,Vertex Monitor,Electronics,West,store,1,329,15,279.65
+1010,2025-02-14,C0052,Pulse Earbuds,Electronics,East,web,3,79,10,213.3
+1011,2026-02-07,C0284,Vertex Monitor,Electronics,East,store,5,329,0,1645.0
+1012,2026-05-05,C0044,Loop Yoga Mat,Fitness,South,partner,1,35,15,29.75
+1013,2025-02-10,C0284,Loop Yoga Mat,Fitness,South,store,2,35,0,70.0
+1014,2025-11-26,C0072,Nimbus Chair,Home,West,partner,1,189,0,189.0
+1015,2026-04-11,C0116,Aurora Lamp,Home,North,partner,1,49,0,49.0
+1016,2026-03-19,C0081,Nimbus Chair,Home,West,store,2,189,0,378.0
+1017,2025-01-08,C0162,Loop Yoga Mat,Fitness,East,partner,1,35,15,29.75
+1018,2025-10-31,C0065,Loop Yoga Mat,Fitness,West,web,1,35,5,33.25
+1019,2026-03-30,C0251,Summit Tent,Outdoor,South,web,3,249,0,747.0
+1020,2026-02-17,C0015,Loop Yoga Mat,Fitness,West,web,1,35,10,31.5
+1021,2025-10-22,C0120,Aurora Lamp,Home,East,partner,2,49,0,98.0
+1022,2025-03-12,C0228,Loop Yoga Mat,Fitness,East,partner,5,35,10,157.5
+1023,2025-08-20,C0221,Titan Dumbbells,Fitness,North,store,3,119,0,357.0
+1024,2025-08-19,C0107,Aurora Lamp,Home,South,web,2,49,15,83.3
+1025,2025-08-17,C0008,Vertex Monitor,Electronics,West,store,1,329,0,329.0
+1026,2026-03-23,C0294,Vertex Monitor,Electronics,South,store,3,329,0,987.0
+1027,2026-04-23,C0166,Vertex Monitor,Electronics,South,partner,1,329,5,312.55
+1028,2026-05-03,C0090,Loop Yoga Mat,Fitness,South,store,5,35,5,166.25
+1029,2025-12-31,C0298,Brew Kettle,Kitchen,East,store,1,59,0,59.0
+1030,2026-03-06,C0169,Titan Dumbbells,Fitness,East,web,1,119,0,119.0
+1031,2026-06-10,C0237,Brew Kettle,Kitchen,East,web,5,59,0,295.0
+1032,2025-03-30,C0133,Vertex Monitor,Electronics,East,store,2,329,10,592.2
+1033,2025-03-10,C0185,Summit Tent,Outdoor,North,partner,3,249,10,672.3
+1034,2026-02-15,C0010,Vertex Monitor,Electronics,East,store,2,329,0,658.0
+1035,2025-07-23,C0031,Aurora Lamp,Home,South,partner,1,49,10,44.1
+1036,2026-01-19,C0273,Aurora Lamp,Home,East,store,1,49,0,49.0
+1037,2026-06-06,C0231,Forge Knife Set,Kitchen,South,web,5,139,5,660.25
+1038,2025-11-23,C0243,Pulse Earbuds,Electronics,East,store,2,79,0,158.0
+1039,2025-12-13,C0278,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+1040,2026-04-09,C0152,Pulse Earbuds,Electronics,West,web,2,79,5,
+1041,2025-03-22,C0131,Forge Knife Set,Kitchen,West,partner,1,139,0,139.0
+1042,2026-05-04,C0187,Nimbus Chair,Home,East,web,1,189,0,189.0
+1043,2025-07-05,C0108,Pulse Earbuds,Electronics,North,partner,1,79,5,75.05
+1044,2025-04-01,C0058,Pulse Earbuds,Electronics,East,store,2,79,10,142.2
+1045,2025-10-25,C0081,Nimbus Chair,Home,East,store,2,189,5,359.1
+1046,2025-05-20,C0232,Aurora Lamp,Home,West,web,3,49,0,147.0
+1047,2025-06-22,C0043,Loop Yoga Mat,Fitness,West,store,5,35,0,175.0
+1048,2025-09-05,C0255,Nimbus Chair,Home,South,store,5,189,5,897.75
+1049,2025-03-24,C0169,Brew Kettle,Kitchen,East,web,2,59,0,118.0
+1050,2026-04-04,C0201,Pulse Earbuds,Electronics,West,store,2,79,15,134.3
+1051,2026-03-23,C0170,Nimbus Chair,Home,North,web,1,189,0,189.0
+1052,2025-10-26,C0240,Forge Knife Set,Kitchen,North,store,3,139,15,354.45
+1053,2025-02-08,C0065,Trail Backpack,Outdoor,South,store,1,99,10,89.1
+1054,2026-06-07,C0278,Pulse Earbuds,Electronics,East,web,2,79,0,158.0
+1055,2025-01-07,C0257,Pulse Earbuds,Electronics,North,web,1,79,15,67.15
+1056,2025-01-18,C0200,Forge Knife Set,Kitchen,West,partner,1,139,0,139.0
+1057,2026-06-20,C0232,Loop Yoga Mat,Fitness,South,partner,3,35,15,89.25
+1058,2026-04-11,C0161,Brew Kettle,Kitchen,East,partner,3,59,5,168.15
+1059,2025-07-19,C0038,Loop Yoga Mat,Fitness,West,web,1,35,0,35.0
+1060,2026-04-23,C0062,Loop Yoga Mat,Fitness,East,web,2,35,0,70.0
+1061,2026-05-02,C0121,Summit Tent,Outdoor,West,web,3,249,10,672.3
+1062,2025-08-08,C0291,Aurora Lamp,Home,South,partner,2,49,5,93.1
+1063,2026-05-24,C0120,Titan Dumbbells,Fitness,South,web,1,119,0,119.0
+1064,2025-08-17,C0223,Titan Dumbbells,Fitness,South,partner,1,119,0,119.0
+1065,2025-11-05,C0104,Brew Kettle,Kitchen,East,store,2,59,0,118.0
+1066,2025-10-13,C0022,Titan Dumbbells,Fitness,East,partner,1,119,0,119.0
+1067,2025-06-16,C0047,Titan Dumbbells,Fitness,North,web,2,119,0,238.0
+1068,2025-04-12,C0017,Aurora Lamp,Home,South,web,3,49,0,147.0
+1069,2026-04-09,C0290,Brew Kettle,Kitchen,West,store,1,59,10,53.1
+1070,2025-08-19,C0235,Brew Kettle,Kitchen,South,store,1,59,15,50.15
+1071,2025-11-11,C0277,Aurora Lamp,Home,South,store,1,49,0,49.0
+1072,2026-05-14,C0283,Brew Kettle,Kitchen,East,partner,2,59,10,
+1073,2026-06-16,C0058,Loop Yoga Mat,Fitness,South,partner,1,35,0,35.0
+1074,2025-04-17,C0004,Aurora Lamp,Home,East,store,2,49,0,98.0
+1075,2025-06-02,C0125,Aurora Lamp,Home,East,web,1,49,15,41.65
+1076,2025-08-27,C0159,Pulse Earbuds,Electronics,West,partner,1,79,10,
+1077,2025-06-18,C0106,Loop Yoga Mat,Fitness,West,web,2,35,15,59.5
+1078,2025-11-07,C0164,Brew Kettle,Kitchen,South,partner,1,59,0,59.0
+1079,2025-05-23,C0272,Brew Kettle,Kitchen,North,partner,5,59,5,280.25
+1080,2026-04-14,C0060,Loop Yoga Mat,Fitness,South,store,1,35,0,35.0
+1081,2025-05-30,C0143,Loop Yoga Mat,Fitness,South,store,5,35,5,166.25
+1082,2025-04-07,C0211,Trail Backpack,Outdoor,North,store,1,99,5,94.05
+1083,2025-05-20,C0073,Nimbus Chair,Home,South,store,1,189,0,189.0
+1084,2025-05-11,C0040,Pulse Earbuds,Electronics,West,store,1,79,5,75.05
+1085,2025-08-05,C0272,Brew Kettle,Kitchen,North,web,1,59,0,59.0
+1086,2025-12-13,C0054,Titan Dumbbells,Fitness,East,web,5,119,0,595.0
+1087,2025-09-28,C0203,Titan Dumbbells,Fitness,West,partner,1,119,15,101.15
+1088,2026-04-15,C0276,Titan Dumbbells,Fitness,North,store,5,119,15,505.75
+1089,2025-06-08,C0221,Brew Kettle,Kitchen,West,web,2,59,0,118.0
+1090,2025-03-07,C0138,Loop Yoga Mat,Fitness,East,store,2,35,15,59.5
+1091,2025-07-06,C0023,Brew Kettle,Kitchen,West,store,2,59,15,100.3
+1092,2025-01-30,C0153,Trail Backpack,Outdoor,North,store,2,99,0,198.0
+1093,2025-03-06,C0245,Nimbus Chair,Home,East,partner,2,189,0,378.0
+1094,2026-01-03,C0045,Trail Backpack,Outdoor,East,store,3,99,10,267.3
+1095,2026-03-19,C0003,Pulse Earbuds,Electronics,South,web,2,79,5,150.1
+1096,2026-05-14,C0067,Pulse Earbuds,Electronics,West,partner,1,79,5,75.05
+1097,2026-06-09,C0172,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+1098,2025-11-24,C0158,Brew Kettle,Kitchen,East,store,1,59,15,50.15
+1099,2025-07-17,C0142,Loop Yoga Mat,Fitness,South,web,1,35,0,35.0
+1100,2025-05-16,C0108,Forge Knife Set,Kitchen,West,web,2,139,0,278.0
+1101,2025-11-09,C0061,Brew Kettle,Kitchen,North,store,1,59,0,59.0
+1102,2025-06-13,C0132,Aurora Lamp,Home,South,store,2,49,0,98.0
+1103,2026-04-11,C0255,Brew Kettle,Kitchen,South,web,1,59,10,53.1
+1104,2025-10-22,C0121,Aurora Lamp,Home,East,web,1,49,15,41.65
+1105,2025-12-23,C0085,Aurora Lamp,Home,South,partner,5,49,15,208.25
+1106,2025-11-13,C0241,Brew Kettle,Kitchen,North,web,2,59,0,118.0
+1107,2026-03-22,C0163,Pulse Earbuds,Electronics,West,web,1,79,0,79.0
+1108,2025-06-30,C0059,Nimbus Chair,Home,South,web,5,189,15,803.25
+1109,2026-06-10,C0054,Loop Yoga Mat,Fitness,East,store,2,35,0,70.0
+1110,2025-09-06,C0207,Nimbus Chair,Home,North,partner,1,189,0,189.0
+1111,2025-03-02,C0054,Aurora Lamp,Home,South,web,1,49,0,49.0
+1112,2025-03-18,C0182,Aurora Lamp,Home,North,partner,2,49,10,88.2
+1113,2026-04-06,C0243,Aurora Lamp,Home,West,store,2,49,0,98.0
+1114,2025-08-10,C0173,Aurora Lamp,Home,North,web,2,49,0,98.0
+1115,2026-01-12,C0064,Titan Dumbbells,Fitness,West,web,1,119,0,119.0
+1116,2025-04-08,C0069,Pulse Earbuds,Electronics,North,web,1,79,0,79.0
+1117,2025-05-15,C0049,Brew Kettle,Kitchen,East,web,1,59,0,59.0
+1118,2025-12-29,C0216,Aurora Lamp,Home,North,web,2,49,0,98.0
+1119,2025-05-17,C0148,Aurora Lamp,Home,East,partner,3,49,0,147.0
+1120,2025-11-30,C0123,Pulse Earbuds,Electronics,North,partner,1,79,10,71.1
+1121,2025-02-25,C0196,Brew Kettle,Kitchen,West,web,2,59,10,106.2
+1122,2026-04-16,C0077,Brew Kettle,Kitchen,North,partner,1,59,15,50.15
+1123,2025-11-23,C0048,Trail Backpack,Outdoor,East,web,5,99,5,470.25
+1124,2025-11-12,C0256,Summit Tent,Outdoor,South,store,1,249,5,236.55
+1125,2025-04-20,C0127,Pulse Earbuds,Electronics,East,web,3,79,0,237.0
+1126,2026-01-05,C0173,Aurora Lamp,Home,West,store,3,49,0,147.0
+1127,2025-05-05,C0236,Pulse Earbuds,Electronics,North,web,5,79,0,395.0
+1128,2025-07-01,C0294,Aurora Lamp,Home,West,store,3,49,15,124.95
+1129,2026-05-20,C0145,Trail Backpack,Outdoor,North,store,2,99,0,198.0
+1130,2026-06-01,C0102,Vertex Monitor,Electronics,North,partner,1,329,0,329.0
+1131,2025-11-30,C0045,Pulse Earbuds,Electronics,West,web,1,79,0,79.0
+1132,2025-09-07,C0023,Aurora Lamp,Home,North,store,2,49,10,88.2
+1133,2026-04-13,C0064,Brew Kettle,Kitchen,North,partner,1,59,0,59.0
+1134,2025-05-25,C0045,Loop Yoga Mat,Fitness,East,store,5,35,15,148.75
+1135,2025-09-23,C0184,Brew Kettle,Kitchen,North,web,1,59,10,53.1
+1136,2025-12-05,C0054,Titan Dumbbells,Fitness,East,web,2,119,5,226.1
+1137,2026-05-18,C0111,Loop Yoga Mat,Fitness,South,web,3,35,0,105.0
+1138,2026-04-28,C0042,Summit Tent,Outdoor,East,partner,1,249,5,236.55
+1139,2026-03-23,C0253,Loop Yoga Mat,Fitness,East,store,3,35,0,105.0
+1140,2026-02-15,C0158,Trail Backpack,Outdoor,South,web,1,99,5,94.05
+1141,2025-10-30,C0245,Brew Kettle,Kitchen,North,store,1,59,0,59.0
+1142,2026-01-12,C0077,Aurora Lamp,Home,East,web,1,49,5,46.55
+1143,2026-06-03,C0107,Trail Backpack,Outdoor,South,web,5,99,15,420.75
+1144,2025-04-15,C0291,Pulse Earbuds,Electronics,West,store,5,79,0,395.0
+1145,2026-06-02,C0196,Brew Kettle,Kitchen,North,store,3,59,0,177.0
+1146,2026-05-15,C0124,Brew Kettle,Kitchen,East,store,1,59,5,56.05
+1147,2026-01-19,C0137,Brew Kettle,Kitchen,East,partner,3,59,15,150.45
+1148,2026-04-18,C0190,Pulse Earbuds,Electronics,East,partner,1,79,5,75.05
+1149,2026-05-01,C0280,Brew Kettle,Kitchen,West,web,2,59,5,112.1
+1150,2025-03-08,C0133,Nimbus Chair,Home,South,partner,1,189,5,179.55
+1151,2025-01-27,C0142,Brew Kettle,Kitchen,South,web,3,59,0,177.0
+1152,2025-07-20,C0125,Summit Tent,Outdoor,East,store,1,249,5,236.55
+1153,2026-04-27,C0036,Forge Knife Set,Kitchen,South,store,2,139,0,278.0
+1154,2025-07-31,C0280,Vertex Monitor,Electronics,East,web,5,329,0,
+1155,2026-03-19,C0039,Brew Kettle,Kitchen,West,web,3,59,10,159.3
+1156,2026-02-20,C0296,Trail Backpack,Outdoor,South,web,1,99,0,99.0
+1157,2025-11-14,C0070,Summit Tent,Outdoor,East,partner,1,249,0,249.0
+1158,2025-10-21,C0286,Loop Yoga Mat,Fitness,South,store,3,35,15,89.25
+1159,2025-10-28,C0247,Forge Knife Set,Kitchen,North,web,1,139,0,139.0
+1160,2025-08-10,C0199,Aurora Lamp,Home,East,web,1,49,0,49.0
+1161,2026-01-09,C0142,Trail Backpack,Outdoor,West,web,2,99,10,178.2
+1162,2025-11-21,C0023,Aurora Lamp,Home,North,store,2,49,5,93.1
+1163,2025-04-21,C0282,Loop Yoga Mat,Fitness,South,store,1,35,15,29.75
+1164,2025-04-02,C0168,Trail Backpack,Outdoor,West,partner,3,99,5,282.15
+1165,2025-02-27,C0281,Trail Backpack,Outdoor,East,web,3,99,0,297.0
+1166,2025-02-10,C0154,Brew Kettle,Kitchen,West,web,1,59,0,59.0
+1167,2025-11-23,C0211,Pulse Earbuds,Electronics,East,store,3,79,5,225.15
+1168,2025-12-18,C0220,Pulse Earbuds,Electronics,West,web,2,79,15,134.3
+1169,2025-10-29,C0175,Pulse Earbuds,Electronics,South,web,2,79,0,158.0
+1170,2026-04-13,C0297,Trail Backpack,Outdoor,East,web,3,99,15,252.45
+1171,2026-01-30,C0279,Trail Backpack,Outdoor,West,partner,2,99,15,168.3
+1172,2025-08-29,C0038,Titan Dumbbells,Fitness,North,store,1,119,0,119.0
+1173,2026-04-26,C0130,Vertex Monitor,Electronics,North,web,1,329,10,296.1
+1174,2025-03-02,C0234,Loop Yoga Mat,Fitness,South,store,1,35,0,35.0
+1175,2025-04-16,C0138,Titan Dumbbells,Fitness,East,store,5,119,0,595.0
+1176,2025-12-16,C0104,Brew Kettle,Kitchen,North,store,2,59,0,118.0
+1177,2025-12-13,C0142,Loop Yoga Mat,Fitness,North,web,1,35,10,31.5
+1178,2026-01-17,C0041,Summit Tent,Outdoor,South,store,1,249,0,249.0
+1179,2026-03-09,C0263,Brew Kettle,Kitchen,East,web,2,59,0,118.0
+1180,2025-06-17,C0043,Brew Kettle,Kitchen,West,store,1,59,10,53.1
+1181,2025-10-24,C0286,Titan Dumbbells,Fitness,North,store,2,119,15,202.3
+1182,2025-12-02,C0178,Vertex Monitor,Electronics,North,store,3,329,10,888.3
+1183,2026-03-16,C0028,Brew Kettle,Kitchen,South,partner,5,59,5,280.25
+1184,2026-02-27,C0009,Nimbus Chair,Home,West,web,2,189,10,340.2
+1185,2025-06-12,C0224,Titan Dumbbells,Fitness,South,web,1,119,10,107.1
+1186,2026-03-24,C0244,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+1187,2026-03-25,C0022,Brew Kettle,Kitchen,West,web,2,59,0,118.0
+1188,2025-10-28,C0152,Aurora Lamp,Home,West,partner,2,49,10,88.2
+1189,2025-09-01,C0123,Trail Backpack,Outdoor,East,store,2,99,10,178.2
+1190,2026-06-11,C0008,Titan Dumbbells,Fitness,West,partner,1,119,10,107.1
+1191,2025-10-15,C0277,Vertex Monitor,Electronics,South,web,5,329,5,1562.75
+1192,2025-06-22,C0046,Brew Kettle,Kitchen,North,partner,2,59,0,118.0
+1193,2025-04-19,C0014,Forge Knife Set,Kitchen,East,partner,3,139,5,396.15
+1194,2025-11-26,C0058,Trail Backpack,Outdoor,West,partner,2,99,0,198.0
+1195,2025-11-28,C0048,Pulse Earbuds,Electronics,South,store,1,79,10,71.1
+1196,2026-03-31,C0096,Trail Backpack,Outdoor,South,store,5,99,5,470.25
+1197,2026-06-16,C0255,Pulse Earbuds,Electronics,West,web,2,79,0,158.0
+1198,2025-06-12,C0186,Trail Backpack,Outdoor,West,web,3,99,5,282.15
+1199,2025-08-21,C0106,Loop Yoga Mat,Fitness,North,web,1,35,0,35.0
+1200,2025-05-01,C0022,Loop Yoga Mat,Fitness,East,partner,2,35,0,70.0

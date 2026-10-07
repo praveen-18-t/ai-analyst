@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: analyst
+      POSTGRES_PASSWORD: analyst
+      POSTGRES_DB: analyst
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U analyst"]
+      interval: 5s
+      retries: 10
+    ports: ["5432:5432"]
+
+  api:
+    build: ./backend
+    env_file: [.env]
+    environment:
+      DATABASE_URL: postgresql+psycopg://analyst:analyst@postgres:5432/analyst
+      DATA_DIR: /data
+      AUTH_MODE: dev
+      QUERY_ENGINE: duckdb
+      STORAGE: local
+      CORS_ORIGINS: http://localhost:3000
+    volumes: [lake:/data]
+    depends_on:
+      postgres: { condition: service_healthy }
+    ports: ["8000:8000"]
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        API_PROXY_TARGET: http://api:8000   # browser calls /api on :3000, Next proxies to the API
+    depends_on: [api]
+    ports: ["3000:3000"]
+
+volumes:
+  pgdata:
+  lake:

@@ -1,0 +1,128 @@
+name: ci-cd
+# Push -> Test -> Build -> Scan -> Deploy
+
+on:
+  push: { branches: [main] }
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip, cache-dependency-path: backend/requirements-dev.txt }
+      - run: pip install -r backend/requirements-dev.txt
+      - run: cd backend && pytest -q
+
+  test-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm, cache-dependency-path: frontend/package-lock.json }
+      - run: cd frontend && npm ci && npm run build
+
+  validate-terraform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+      - run: cd infra/terraform && terraform fmt -check -recursive && terraform init -backend=false && terraform validate
+
+  scan-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aquasecurity/trivy-action@0.28.0
+        with:
+          scan-type: fs
+          scanners: vuln,secret,misconfig
+          severity: HIGH,CRITICAL
+          ignore-unfixed: true
+          exit-code: "1"
+
+  build-scan:
+    needs: [test-backend, test-frontend, validate-terraform, scan-source]
+    runs-on: ubuntu-latest
+    permissions: { id-token: write, contents: read }
+    outputs:
+      tag: ${{ steps.vars.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: vars
+        run: echo "tag=${GITHUB_SHA::12}" >> "$GITHUB_OUTPUT"
+
+      # On main: read Cognito ids from Terraform outputs (inlined into the web bundle at build time).
+      - uses: aws-actions/configure-aws-credentials@v4
+        if: github.ref == 'refs/heads/main'
+        with: { role-to-assume: "${{ secrets.AWS_ROLE_ARN }}", aws-region: "${{ env.AWS_REGION }}" }
+      - uses: hashicorp/setup-terraform@v3
+        if: github.ref == 'refs/heads/main'
+        with: { terraform_wrapper: false }
+      - id: tf
+        if: github.ref == 'refs/heads/main'
+        working-directory: infra/terraform
+        run: |
+          terraform init -input=false \
+            -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}" -backend-config="key=ai-analyst/prod.tfstate" \
+            -backend-config="region=${AWS_REGION}" -backend-config="dynamodb_table=ai-analyst-tflock"
+          echo "pool=$(terraform output -raw cognito_user_pool_id)" >> "$GITHUB_OUTPUT"
+          echo "client=$(terraform output -raw cognito_client_id)" >> "$GITHUB_OUTPUT"
+          echo "api_repo=$(terraform output -raw ecr_api_repo)" >> "$GITHUB_OUTPUT"
+          echo "web_repo=$(terraform output -raw ecr_web_repo)" >> "$GITHUB_OUTPUT"
+
+      - name: Build images
+        run: |
+          docker build -t api:${{ steps.vars.outputs.tag }} backend
+          docker build -t web:${{ steps.vars.outputs.tag }} \
+            --build-arg NEXT_PUBLIC_COGNITO_USER_POOL_ID="${{ steps.tf.outputs.pool }}" \
+            --build-arg NEXT_PUBLIC_COGNITO_CLIENT_ID="${{ steps.tf.outputs.client }}" frontend
+
+      - name: Scan images
+        run: |
+          docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.57.0 image \
+            --severity CRITICAL --ignore-unfixed --exit-code 1 api:${{ steps.vars.outputs.tag }}
+          docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.57.0 image \
+            --severity CRITICAL --ignore-unfixed --exit-code 1 web:${{ steps.vars.outputs.tag }}
+
+      - uses: aws-actions/amazon-ecr-login@v2
+        if: github.ref == 'refs/heads/main'
+      - name: Push images
+        if: github.ref == 'refs/heads/main'
+        run: |
+          TAG=${{ steps.vars.outputs.tag }}
+          docker tag api:$TAG ${{ steps.tf.outputs.api_repo }}:$TAG && docker push ${{ steps.tf.outputs.api_repo }}:$TAG
+          docker tag web:$TAG ${{ steps.tf.outputs.web_repo }}:$TAG && docker push ${{ steps.tf.outputs.web_repo }}:$TAG
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build-scan
+    runs-on: ubuntu-latest
+    environment: production
+    permissions: { id-token: write, contents: read }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with: { role-to-assume: "${{ secrets.AWS_ROLE_ARN }}", aws-region: "${{ env.AWS_REGION }}" }
+      - uses: hashicorp/setup-terraform@v3
+        with: { terraform_wrapper: false }
+      - name: Terraform apply
+        working-directory: infra/terraform
+        run: |
+          terraform init -input=false \
+            -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}" -backend-config="key=ai-analyst/prod.tfstate" \
+            -backend-config="region=${AWS_REGION}" -backend-config="dynamodb_table=ai-analyst-tflock"
+          terraform apply -input=false -auto-approve -var "image_tag=${{ needs.build-scan.outputs.tag }}"
+          echo "CLUSTER=$(terraform output -raw ecs_cluster)" >> "$GITHUB_ENV"
+          echo "ALB=$(terraform output -raw alb_dns_name)" >> "$GITHUB_ENV"
+      - name: Wait for rollout
+        run: aws ecs wait services-stable --cluster "$CLUSTER" --services api web worker
+      - name: Smoke test
+        run: curl --fail --retry 5 --retry-delay 5 "http://$ALB/health"
