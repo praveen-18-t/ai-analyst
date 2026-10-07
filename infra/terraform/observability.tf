@@ -1,4 +1,7 @@
-resource "aws_sns_topic" "alarms" { name = "${local.name}-alarms" }
+resource "aws_sns_topic" "alarms" {
+  name              = "${local.name}-alarms"
+  kms_master_key_id = "alias/aws/sns"
+}
 resource "aws_sns_topic_subscription" "email" {
   count     = var.alarm_email == "" ? 0 : 1
   topic_arn = aws_sns_topic.alarms.arn
