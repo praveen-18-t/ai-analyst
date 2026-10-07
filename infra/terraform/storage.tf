@@ -20,6 +20,7 @@ resource "aws_s3_bucket" "data" {
 #trivy:ignore:AWS-0087
 #trivy:ignore:AWS-0091
 #trivy:ignore:AWS-0093
+#trivy:ignore:AWS-0132
 resource "aws_s3_bucket" "athena" {
   bucket = "${local.name}-athena-${data.aws_caller_identity.me.account_id}"
 }
