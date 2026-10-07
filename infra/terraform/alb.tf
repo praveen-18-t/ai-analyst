@@ -21,6 +21,8 @@ resource "aws_security_group" "alb" {
   }
 }
 
+# Public internet-facing ALB is intentional for the SaaS entry point.
+# trivy:ignore:AWS-0053:public ALB is the intended application ingress
 resource "aws_lb" "main" {
   name               = local.name
   load_balancer_type = "application"
