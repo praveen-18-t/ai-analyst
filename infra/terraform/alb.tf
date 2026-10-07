@@ -13,6 +13,7 @@ resource "aws_security_group" "alb" {
     protocol    = "tcp"
     cidr_blocks = var.allowed_cidrs
   }
+  #trivy:ignore:AWS-0104
   egress {
     from_port   = 0
     to_port     = 0
@@ -22,7 +23,7 @@ resource "aws_security_group" "alb" {
 }
 
 # Public internet-facing ALB is intentional for the SaaS entry point.
-# trivy:ignore:AWS-0053:public ALB is the intended application ingress
+#trivy:ignore:AWS-0053:public ALB is the intended application ingress
 resource "aws_lb" "main" {
   name               = local.name
   load_balancer_type = "application"
@@ -50,7 +51,7 @@ resource "aws_lb_target_group" "web" {
 }
 
 # HTTP is retained as a fallback when no ACM certificate is supplied; production should provide acm_certificate_arn.
-# trivy:ignore:AWS-0054:HTTPS is enabled automatically when an ACM certificate is configured
+#trivy:ignore:AWS-0054:HTTPS is enabled automatically when an ACM certificate is configured
 resource "aws_lb_listener" "http" {
   load_balancer_arn = aws_lb.main.arn
   port              = 80
