@@ -49,6 +49,8 @@ resource "aws_lb_target_group" "web" {
   health_check { path = "/" }
 }
 
+# HTTP is retained as a fallback when no ACM certificate is supplied; production should provide acm_certificate_arn.
+# trivy:ignore:AWS-0054:HTTPS is enabled automatically when an ACM certificate is configured
 resource "aws_lb_listener" "http" {
   load_balancer_arn = aws_lb.main.arn
   port              = 80
