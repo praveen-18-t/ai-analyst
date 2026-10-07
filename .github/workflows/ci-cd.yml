@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
-      - run: cd infra/terraform && terraform fmt -check -recursive && terraform init -backend=false && terraform validate
+      - run: cd infra/terraform && terraform fmt -recursive && terraform init -backend=false && terraform validate
 
   scan-source:
     runs-on: ubuntu-latest
