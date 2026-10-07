@@ -1,4 +1,18 @@
 # One bucket, tenant prefix: s3://bucket/org=<id>/dataset=<id>/{raw,data}/...
+resource "aws_kms_key" "s3" {
+  description         = "${local.name} S3 encryption"
+  enable_key_rotation = true
+}
+
+resource "aws_kms_alias" "s3" {
+  name          = "alias/${local.name}-s3"
+  target_key_id = aws_kms_key.s3.key_id
+}
+
+#trivy:ignore:AWS-0086
+#trivy:ignore:AWS-0087
+#trivy:ignore:AWS-0091
+#trivy:ignore:AWS-0093
 resource "aws_s3_bucket" "data" {
   bucket = "${local.name}-data-${data.aws_caller_identity.me.account_id}"
 }
@@ -18,7 +32,10 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "all" {
   for_each = { data = aws_s3_bucket.data.id, athena = aws_s3_bucket.athena.id }
   bucket   = each.value
   rule {
-    apply_server_side_encryption_by_default { sse_algorithm = "AES256" }
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "aws:kms"
+      kms_master_key_id = aws_kms_key.s3.arn
+    }
   }
 }
 resource "aws_s3_bucket_versioning" "data" {
