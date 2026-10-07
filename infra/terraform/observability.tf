@@ -1,6 +1,16 @@
+resource "aws_kms_key" "sns" {
+  description         = "${local.name} SNS encryption"
+  enable_key_rotation = true
+}
+
+resource "aws_kms_alias" "sns" {
+  name          = "alias/${local.name}-sns"
+  target_key_id = aws_kms_key.sns.key_id
+}
+
 resource "aws_sns_topic" "alarms" {
   name              = "${local.name}-alarms"
-  kms_master_key_id = "alias/aws/sns"
+  kms_master_key_id = aws_kms_key.sns.arn
 }
 resource "aws_sns_topic_subscription" "email" {
   count     = var.alarm_email == "" ? 0 : 1
