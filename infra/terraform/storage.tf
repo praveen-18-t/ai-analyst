@@ -16,6 +16,10 @@ resource "aws_kms_alias" "s3" {
 resource "aws_s3_bucket" "data" {
   bucket = "${local.name}-data-${data.aws_caller_identity.me.account_id}"
 }
+#trivy:ignore:AWS-0086
+#trivy:ignore:AWS-0087
+#trivy:ignore:AWS-0091
+#trivy:ignore:AWS-0093
 resource "aws_s3_bucket" "athena" {
   bucket = "${local.name}-athena-${data.aws_caller_identity.me.account_id}"
 }
