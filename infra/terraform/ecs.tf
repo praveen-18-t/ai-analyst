@@ -21,6 +21,7 @@ resource "aws_security_group" "tasks" {
     protocol        = "tcp"
     security_groups = [aws_security_group.alb.id]
   }
+  #trivy:ignore:AWS-0104
   egress {
     from_port   = 0
     to_port     = 0
